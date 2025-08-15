@@ -25,7 +25,7 @@
   <script>OzB_vars={"site_name":"OzBargain","ga_uacct":"G-VTWXKF7VP6","uid":0,"extlink_new":1,"adstype":"FUSE"};</script>
 <script src="/js/plugins/jquery.min.js?ver=3.6.3"></script>
 <script src="/js/plugins/htmx.min.js?ver=2.0.4"></script>
-<script src="/js/ozbapp.js?ver=807"></script>
+<script src="/js/ozbapp.js?ver=808"></script>
 <script>OzB.initGA();</script>
 <script>
 jQuery(document).on('ads:filter', function(evt, val) {
@@ -46,19 +46,19 @@ jQuery(document).on('ads:targeting', function() {
   let _pagetarget = Math.ceil(Math.random()*100);
   OzB.ads.setTargeting('publift_mv_testing', _pagetarget>10?'optimized':((_pagetarget%10)==0?'benchmark':'exploration'+(_pagetarget%10)));
 });
-</script><script src="/js/ozbads.js?ver=807" defer></script>
-<link rel="stylesheet" media="all" type="text/css" href="/files/css/main.css?ver=807"/>
-<link rel="stylesheet" media="all" type="text/css" href="/files/css/competition.css?ver=807"/>
-<link rel="stylesheet" media="all" type="text/css" href="/themes/ozbargain/style.css?ver=807"/>
+</script><script src="/js/ozbads.js?ver=808" defer></script>
+<link rel="stylesheet" media="all" type="text/css" href="/files/css/main.css?ver=808"/>
+<link rel="stylesheet" media="all" type="text/css" href="/files/css/competition.css?ver=808"/>
+<link rel="stylesheet" media="all" type="text/css" href="/themes/ozbargain/style.css?ver=808"/>
 
-<script src="/js/front.js?ver=807"></script>
+<script src="/js/front.js?ver=808"></script>
 <link rel="next" href="/?page=1" />
-<script src="/js/competition.js?ver=807"></script>
+<script src="/js/competition.js?ver=808"></script>
 <link rel="search" type="application/opensearchdescription+xml" title="OzBargain Search" href="/opensearch.xml" />
 <link rel="canonical" href="https://www.ozbargain.com.au/" />
 <script>OzB.onload(function() {
-OzB.initNode();
 OzB.initCouponCode();
+OzB.initNode();
 OzB.dismissNewsletter(1);
 });</script>
   <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebSite","image":"https://www.ozbargain.com.au/themes/ozbargain/logo-square.png","publisher":{"@type":"Organization","name":"OzBargain","url":"https://www.ozbargain.com.au","logo":{"@type":"ImageObject","height":256,"width":256,"url":"https://www.ozbargain.com.au/themes/ozbargain/logo-icon-256.png"}},"name":"OzBargain","description":"OzBargain is Australia's bargain hunting community, where hot deals, coupon codes, vouchers, special promotions and freebies are shared everyday.","url":"https://www.ozbargain.com.au"}</script></head>
@@ -68,14 +68,14 @@ OzB.dismissNewsletter(1);
     <div id="logo"><a href="/" title="Home"><img src="/themes/ozbargain/logo.png" alt="OzBargain" width="147" height="41"/></a></div>
     <div id="menuwrap">
       <form action="/search/node" method="post" class="search">
-        <a href="#"><i class="fa fa-caret-down"></i></a><input id="search-text" type="text" maxlength="128" name="edit[keys]" size="15" value="" class="form-text"/><button type="submit" name="op" value="Search"><i class="fa fa-search"></i></button><input type="hidden" name="edit[form_token]" value="76c31a4c8cb45f5549cb889c0bb1bc9f" /><input type="hidden" name="edit[form_id]" value="search_form" /><input id="search-extra" type="hidden" name="edit[keyspost]"/>
+        <a href="#"><i class="fa fa-caret-down"></i></a><input id="search-text" type="text" maxlength="128" name="edit[keys]" size="15" value="" class="form-text"/><button type="submit" name="op" value="Search"><i class="fa fa-search"></i></button><input type="hidden" name="edit[form_token]" value="8666dc1d17a3a69adc799ef366e34391" /><input type="hidden" name="edit[form_id]" value="search_form" /><input id="search-extra" type="hidden" name="edit[keyspost]"/>
       </form>
       <ul id="menu">
-        <li id="menu-deals" data-popupurl="/ozbapi/popup/deals?v=807-0" data-popupwidth="350"><a href="/deals">Deals</a></li>
+        <li id="menu-deals" data-popupurl="/ozbapi/popup/deals?v=808-0" data-popupwidth="350"><a href="/deals">Deals</a></li>
         <li id="menu-live"><a href="/live">Live</a></li>
-        <li id="menu-forums" data-popupurl="/ozbapi/popup/forum?v=807-0" data-popupwidth="350"><a href="/forum">Forums</a></li>
-        <li id="menu-comps" data-popupurl="/ozbapi/popup/comps?v=807-0" data-popupwidth="300"><a href="/competition">Comps</a></li>
-        <li data-popupurl="/ozbapi/popup/pages?v=807-0" data-popupwidth="250"><a href="/wiki/">Pages</a></li>
+        <li id="menu-forums" data-popupurl="/ozbapi/popup/forum?v=808-0" data-popupwidth="350"><a href="/forum">Forums</a></li>
+        <li id="menu-comps" data-popupurl="/ozbapi/popup/comps?v=808-0" data-popupwidth="300"><a href="/competition">Comps</a></li>
+        <li data-popupurl="/ozbapi/popup/pages?v=808-0" data-popupwidth="250"><a href="/wiki/">Pages</a></li>
                 <li id="menu-login"><a href="/user/login?destination=front" onclick="OzB.showLoginDialog('Log in'); return false;">Login</a></li>
         <li id="menu-join"><a href="/user/register">Join</a></li>
               </ul>
@@ -83,178 +83,178 @@ OzB.dismissNewsletter(1);
   </div>
 </header>
 <script>OzB.onload(OzB.initMenu);</script>
-<header id="header2nd"><div class="wrap"><ul><li><a href="/cat/electrical-electronics" class="shade3h">Electrical &amp; Electronics</a></li><li><a href="/cat/travel" class="shade3h">Travel</a></li><li><a href="/cat/computing" class="shade3h">Computing</a></li><li><a href="/cat/gaming" class="shade3h">Gaming</a></li><li><a href="/cat/entertainment" class="shade3h">Entertainment</a></li><li><a href="/cat/home-garden" class="shade3h">Home &amp; Garden</a></li><li><a href="/cat/mobile" class="shade3h">Mobile</a></li><li><a href="/cat/groceries" class="shade3h">Groceries</a></li></ul></div></header><main>
+<header id="header2nd"><div class="wrap"><ul><li><a href="/cat/electrical-electronics" class="shade3h">Electrical &amp; Electronics</a></li><li><a href="/cat/travel" class="shade3h">Travel</a></li><li><a href="/cat/computing" class="shade3h">Computing</a></li><li><a href="/cat/gaming" class="shade3h">Gaming</a></li><li><a href="/cat/home-garden" class="shade3h">Home &amp; Garden</a></li><li><a href="/cat/entertainment" class="shade3h">Entertainment</a></li><li><a href="/cat/mobile" class="shade3h">Mobile</a></li><li><a href="/cat/fashion-apparel" class="shade3h">Fashion &amp; Apparel</a></li></ul></div></header><main>
   <div id="ozbads-2" class="ads adsbillboard" style="height:250px" data-fuse="21920455720"></div>  <div class="wrap"> 
     <div id="main" class="main">
                         
-      <h2 class="section"><span>Deals</span></h2><div class="node node-ozbdeal node-teaser" id="node919628">
+      <h2 class="section"><span>Deals</span></h2><div class="node node-ozbdeal node-teaser" id="node919776">
   
   <div class="n-left">
-    <img src="https://files.ozbargain.com.au/u/12/412312-38.jpg?h=00db64ce" alt="" width="38" height="38" class="gravatar"/>    <div class="n-vote n-deal inact" data-nid="919628"><span class="nvb voteup"><i class="fa fa-plus"></i><span>14</span></span><span class="nvb votedown"><i class="fa fa-minus"></i><span>0</span></span></div>  </div>
+    <img src="https://files.ozbargain.com.au/u/23/384823-38.jpg?h=8c550090" alt="" width="38" height="38" class="gravatar"/>    <div class="n-vote n-deal inact" data-nid="919776"><span class="nvb voteup"><i class="fa fa-plus"></i><span>32</span></span><span class="nvb votedown"><i class="fa fa-minus"></i><span>1</span></span></div>  </div>
 
   <div class="n-right">
     <div class="right">
-      <div class="foxshot-container"><a href="/goto/919628" rel="noopener nofollow" title="Go to https://www.samsung.com/au/tablets/galaxy-tab-s9/buy/" target="_blank"><img src="https://files.ozbargain.com.au/n/28/919628.jpg?h=89308679" alt="Samsung Galaxy Tab S9 Wi-Fi 128GB $399 Delivered Less Trade in (with $300 Trade in Bonus) @ Samsung"/><span class="overlay overlay-afflink" title="Affiliate Link - click for information" onclick="OzB.node_affinfo(this);return false;">Affiliate</span></a></div>    </div>
-    <h2 class="title" id="title919628" data-title="Samsung Galaxy Tab S9 Wi-Fi 128GB $399 Delivered Less Trade in (with $300 Trade in Bonus) @ Samsung"><a href="/node/919628">Samsung Galaxy Tab S9 Wi-Fi 128GB <em class="dollar">$399</em> Delivered Less Trade in (with <em class="dollar">$300</em> Trade in Bonus) @ Samsung</a></h2>    <div class="submitted"><strong><a href="/user/412312" title="View user profile." onclick="return OzB.user_tooltip(this)">shxhshzhz</a></strong> on 14/08/2025 - 16:26 <span class="via"><i class="fa fa-link"></i> <a href="/goto/919628" rel="noopener nofollow noreferrer" target="_blank">samsung.com</a></span></div>
+      <div class="foxshot-container"><a href="/goto/919776" rel="noopener nofollow" title="Go to https://www.turkishairlines.com/" target="_blank"><img src="https://files.ozbargain.com.au/n/76/919776.jpg?h=be496221" alt="20% off Turkish Airlines from MELB/SYD to Europe, Türkiye, Africa, Middle East, Northern Cyprus (Fly Oct-Nov) @ Turkish Airlines"/></a></div>    </div>
+    <h2 class="title" id="title919776" data-title="20% off Turkish Airlines from MELB/SYD to Europe, Türkiye, Africa, Middle East, Northern Cyprus (Fly Oct-Nov) @ Turkish Airlines"><a href="/node/919776">20% off Turkish Airlines from MELB/SYD to Europe, Türkiye, Africa, Middle East, Northern Cyprus (Fly Oct-Nov) @ Turkish Airlines</a></h2>    <div class="submitted"><strong><a href="/user/384823" title="View user profile." onclick="return OzB.user_tooltip(this)">AircraftFreight</a></strong> on 15/08/2025 - 14:09 <span class="via"><i class="fa fa-link"></i> <a href="/goto/919776" rel="noopener nofollow noreferrer" target="_blank">turkishairlines.com</a></span></div>
     <div class="content">
-            <p>All time low on the flagship Tab S9 by stacking a $300 bonus trade in on top of the current $699 sale. Ends today. 69% off RRP$1299. 11&quot; (1600 x 2560) 120Hz Dynamic AMOLED 2x screen 8400mAh …</p>    </div>
-    <div class="links" id="links919628"><ul class="links"><li><i class="fa fa-comment"></i> 6</li><li><span class="tag"><i class="fa fa-tag"></i> <a href="/cat/computing">Computing</a></span></li><li><span class="nodeexpiry"><i class="fa fa-calendar"></i> 14 Aug <span class="marker">Today</span> </span></li></ul></div>  </div>
+      <div class="couponcode" title="Coupon code - click to copy to clipboard"><i class="fa fa-shopping-cart"></i><strong>AUSPECIAL</strong></div>      <p>20% off both one way and return trips on Turkish Airlines from Melbourne/Sydney to Europe, Türkiye, Africa, Middle East and Northern Cyprus. Must be booked DIRECTLY with Turkish Airlines and both …</p>    </div>
+    <div class="links" id="links919776"><ul class="links"><li><i class="fa fa-comment"></i> 49</li><li><span class="tag"><i class="fa fa-tag"></i> <a href="/cat/travel">Travel</a></span></li><li><span class="nodeexpiry"><i class="fa fa-calendar"></i> 15 Sep <span class="marker">31 days left</span> </span></li></ul></div>  </div>
 </div>
-<div class="node node-ozbdeal node-teaser" id="node919609">
+<div class="node node-ozbdeal node-teaser" id="node919771">
   
   <div class="n-left">
-    <img src="https://files.ozbargain.com.au/g/38.jpg" alt="" width="38" height="38" class="gravatar"/>    <div class="n-vote n-deal inact" data-nid="919609"><span class="nvb voteup"><i class="fa fa-plus"></i><span>24</span></span><span class="nvb votedown"><i class="fa fa-minus"></i><span>0</span></span></div>  </div>
+    <img src="https://files.ozbargain.com.au/u/44/144344-38.jpg?h=70933590" alt="" width="38" height="38" class="gravatar"/>    <div class="n-vote n-deal inact" data-nid="919771"><span class="nvb voteup"><i class="fa fa-plus"></i><span>66</span></span><span class="nvb votedown"><i class="fa fa-minus"></i><span>0</span></span></div>  </div>
 
   <div class="n-right">
     <div class="right">
-      <div class="foxshot-container"><a href="/goto/919609" rel="noopener nofollow" title="Go to http://kfc.com.au/" target="_blank"><img src="https://files.ozbargain.com.au/n/09/919609.jpg?h=db5d3508" alt="Colonel&#039;s Chicken &#039;n Chips (10 Pieces Original Recipe Fried Chicken &amp; 2 Regular French Fries) $15 @ KFC (Online &amp; Pickup Only)"/></a></div>    </div>
-    <h2 class="title" id="title919609" data-title="Colonel&#039;s Chicken &#039;n Chips (10 Pieces Original Recipe Fried Chicken &amp; 2 Regular French Fries) $15 @ KFC (Online &amp; Pickup Only)"><span class="tagger targeted">Targeted</span> <a href="/node/919609">Colonel&#039;s Chicken &#039;n Chips (10 Pieces Original Recipe Fried Chicken &amp; 2 Regular French Fries) <em class="dollar">$15</em> @ KFC (Online &amp; Pickup Only)</a></h2>    <div class="submitted"><strong><a href="/user/135058" title="View user profile." onclick="return OzB.user_tooltip(this)">mangamuncher</a></strong> on 14/08/2025 - 15:40 <span class="via"><i class="fa fa-link"></i> <a href="/goto/919609" rel="noopener nofollow noreferrer" target="_blank">kfc.com.au</a></span></div>
+      <div class="foxshot-container"><a href="/goto/919771" rel="noopener nofollow" title="Go to https://aliexpress.com/" target="_blank"><img src="https://files.ozbargain.com.au/n/71/919771.jpg?h=e48b2e28" alt="$2 off $10, $3 off $15, $5 off $30, $10 off $69, $15 off $99, $25 off $139, $35 off $199, $45 off $269 (in USD) @ AliExpress"/><span class="overlay overlay-afflink" title="Affiliate Link - click for information" onclick="OzB.node_affinfo(this);return false;">Affiliate</span></a></div>    </div>
+    <h2 class="title" id="title919771" data-title="$2 off $10, $3 off $15, $5 off $30, $10 off $69, $15 off $99, $25 off $139, $35 off $199, $45 off $269 (in USD) @ AliExpress"><span class="tagger upcoming" title="Upcoming deal">In 3 days</span> <a href="/node/919771"><em class="dollar">$2</em> off <em class="dollar">$10</em>, <em class="dollar">$3</em> off <em class="dollar">$15</em>, <em class="dollar">$5</em> off <em class="dollar">$30</em>, <em class="dollar">$10</em> off <em class="dollar">$69</em>, <em class="dollar">$15</em> off <em class="dollar">$99</em>, <em class="dollar">$25</em> off <em class="dollar">$139</em>, <em class="dollar">$35</em> off <em class="dollar">$199</em>, <em class="dollar">$45</em> off <em class="dollar">$269</em> (in USD) @ AliExpress</a></h2>    <div class="submitted"><strong><a href="/user/144344" title="View user profile." onclick="return OzB.user_tooltip(this)">Clear</a></strong> on 15/08/2025 - 13:48 <span class="via"><i class="fa fa-link"></i> <a href="/goto/919771" rel="noopener nofollow noreferrer" target="_blank">aliexpress.com</a></span></div>
     <div class="content">
-            <p>Was surprised to see this in my app. Seems like a decent deal. Assuming it is targetted. $15 Colonel&#039;s Chicken &#039;n Chips | 10 pieces Original Recipe Chicken &amp; 2 Regular Chips. </p>    </div>
-    <div class="links" id="links919609"><ul class="links"><li><i class="fa fa-comment"></i> 10</li><li><span class="tag"><i class="fa fa-tag"></i> <a href="/cat/dining-takeaway">Dining &amp; Takeaway</a></span></li><li><span class="nodeexpiry"><i class="fa fa-calendar"></i> 18 Aug <span class="marker">4 days left</span> </span></li></ul></div>  </div>
+      <div class="couponcode multi" title="Coupon codes - click to copy to clip board"><i class="fa fa-shopping-cart"></i><strong>AUAF03</strong><strong>AUAF05</strong><strong>AUAF08</strong><strong>AUAF16</strong><strong>AUAF23</strong><strong>AUAF40</strong><strong>AUAF58</strong></div>      <p>Kicking off from 5pm AEST on the 18th until 4:59pm on the 28th is the next AliExpress sale and this is a bigger one with a heap of discounts (more than what the title fits) as you can see below. …</p>    </div>
+    <div class="links" id="links919771"><ul class="links"><li><i class="fa fa-comment"></i> 18</li><li><span class="tag"><i class="fa fa-tag"></i> <a href="/cat/other">Other</a></span></li><li><span class="nodeexpiry inactive"><i class="fa fa-calendar"></i> 18 Aug 5:00pm&ndash;28 Aug 4:59pm <span class="marker">In 3 days</span> </span></li></ul></div>  </div>
 </div>
-<div class="node node-ozbdeal node-teaser" id="node919592">
+<div class="node node-ozbdeal node-teaser" id="node919764">
   
   <div class="n-left">
-    <img src="https://files.ozbargain.com.au/u/12/412312-38.jpg?h=00db64ce" alt="" width="38" height="38" class="gravatar"/>    <div class="n-vote n-deal inact" data-nid="919592"><span class="nvb voteup"><i class="fa fa-plus"></i><span>25</span></span><span class="nvb votedown"><i class="fa fa-minus"></i><span>0</span></span></div>  </div>
+    <img src="https://files.ozbargain.com.au/g/38.jpg" alt="" width="38" height="38" class="gravatar"/>    <div class="n-vote n-deal inact" data-nid="919764"><span class="nvb voteup"><i class="fa fa-plus"></i><span>55</span></span><span class="nvb votedown"><i class="fa fa-minus"></i><span>0</span></span></div>  </div>
 
   <div class="n-right">
     <div class="right">
-      <div class="foxshot-container"><a href="/goto/919592" rel="noopener nofollow" title="Go to https://www.thegoodguys.com.au/samsung-galaxy-tab-s9-wi-fi-128gb-graphite-sm-x710nzaaxsa" target="_blank"><img src="https://files.ozbargain.com.au/n/92/919592.jpg?h=3f224a60" alt="$40 off $300-$399.99 Spend, $60 off $400+ Spend (Samsung Tab S9 128GB $627 via Price Check) + Delivery ($0 C&amp;C) @ The Good Guys"/></a></div>    </div>
-    <h2 class="title" id="title919592" data-title="$40 off $300-$399.99 Spend, $60 off $400+ Spend (Samsung Tab S9 128GB $627 via Price Check) + Delivery ($0 C&amp;C) @ The Good Guys"><a href="/node/919592"><em class="dollar">$40</em> off <em class="dollar">$300</em>-<em class="dollar">$399.99</em> Spend, <em class="dollar">$60</em> off <em class="dollar">$400</em>+ Spend (Samsung Tab S9 128GB <em class="dollar">$627</em> via Price Check) + Delivery (<em class="dollar">$0</em> C&amp;C) @ The Good Guys</a></h2>    <div class="submitted"><strong><a href="/user/412312" title="View user profile." onclick="return OzB.user_tooltip(this)">shxhshzhz</a></strong> on 14/08/2025 - 14:20 <span class="via"><i class="fa fa-link"></i> <a href="/goto/919592" rel="noopener nofollow noreferrer" target="_blank">thegoodguys.com.au</a></span></div>
+      <div class="foxshot-container"><a href="/goto/919764" rel="noopener nofollow" title="Go to https://www.kogan.com/au/buy/xiaomi-mi-hepa-filter-air-purifier/" target="_blank"><img src="https://files.ozbargain.com.au/n/64/919764.jpg?h=68473693" alt="[Kogan First] Xiaomi Mi HEPA Filter for Air Purifier $39.99 Delivered @ Kogan"/></a></div>    </div>
+    <h2 class="title" id="title919764" data-title="[Kogan First] Xiaomi Mi HEPA Filter for Air Purifier $39.99 Delivered @ Kogan"><a href="/node/919764">[Kogan First] Xiaomi Mi HEPA Filter for Air Purifier <em class="dollar">$39.99</em> Delivered @ Kogan</a></h2>    <div class="submitted"><strong><a href="/user/60437" title="View user profile." onclick="return OzB.user_tooltip(this)">sixnout</a></strong> on 15/08/2025 - 13:08 <span class="via"><i class="fa fa-link"></i> <a href="/goto/919764" rel="noopener nofollow noreferrer" target="_blank">kogan.com</a></span></div>
     <div class="content">
-      <div class="couponcode" title="Coupon code - click to copy to clipboard"><i class="fa fa-shopping-cart"></i><strong>PAYDAY</strong></div>      <p>Storewide offer from The Good Guys. Press the price beat button and use the code to make the Tab S9 $627. Cheap for an outright price with no trade in required or dealing with Asurion. 51% off …</p>    </div>
-    <div class="links" id="links919592"><ul class="links"><li><i class="fa fa-comment"></i> 6</li><li><span class="tag"><i class="fa fa-tag"></i> <a href="/cat/electrical-electronics">Electrical &amp; Electronics</a></span></li><li><span class="nodeexpiry"><i class="fa fa-calendar"></i> 17 Aug <span class="marker">3 days left</span> </span></li></ul></div>  </div>
+            <p>Been a while since we&#039;ve had one of these deals for those who still have the older model Xiaomi air purifiers. Will need to sign up to the free trial of Kogan First to get the price and free …</p>    </div>
+    <div class="links" id="links919764"><ul class="links"><li><i class="fa fa-comment"></i> 29</li><li><span class="tag"><i class="fa fa-tag"></i> <a href="/cat/home-garden">Home &amp; Garden</a></span></li></ul></div>  </div>
 </div>
-<div class="node node-ozbdeal node-teaser" id="node919588">
+<div class="node node-ozbdeal node-teaser" id="node919763">
   
   <div class="n-left">
-    <img src="https://files.ozbargain.com.au/u/29/275229-38.jpg?h=7ed5f0fd" alt="" width="38" height="38" class="gravatar"/>    <div class="n-vote n-deal inact" data-nid="919588"><span class="nvb voteup"><i class="fa fa-plus"></i><span>39</span></span><span class="nvb votedown"><i class="fa fa-minus"></i><span>0</span></span></div>  </div>
+    <img src="https://files.ozbargain.com.au/u/61/193161-38.jpg?h=3c9977fd" alt="" width="38" height="38" class="gravatar"/>    <div class="n-vote n-deal inact" data-nid="919763"><span class="nvb voteup"><i class="fa fa-plus"></i><span>67</span></span><span class="nvb votedown"><i class="fa fa-minus"></i><span>0</span></span></div>  </div>
 
   <div class="n-right">
     <div class="right">
-      <div class="foxshot-container"><a href="/goto/919588" rel="noopener nofollow" title="Go to https://www.ebay.com.au/itm/256963336447" target="_blank"><img src="https://files.ozbargain.com.au/n/88/919588.jpg?h=b0c4ed2f" alt="[Afterpay] Sapphire Radeon RX 9060 XT Pulse Gaming GDDR6 16GB Graphics Card $551.65 Delivered @ MetroCom eBay"/><span class="overlay overlay-afflink" title="Affiliate Link - click for information" onclick="OzB.node_affinfo(this);return false;">Affiliate</span></a></div>    </div>
-    <h2 class="title" id="title919588" data-title="[Afterpay] Sapphire Radeon RX 9060 XT Pulse Gaming GDDR6 16GB Graphics Card $551.65 Delivered @ MetroCom eBay"><a href="/node/919588">[Afterpay] Sapphire Radeon RX 9060 XT Pulse Gaming GDDR6 16GB Graphics Card <em class="dollar">$551.65</em> Delivered @ MetroCom eBay</a></h2>    <div class="submitted"><strong><a href="/user/275229" title="View user profile." onclick="return OzB.user_tooltip(this)">vanyellow</a></strong> on 14/08/2025 - 14:14 <span class="via"><i class="fa fa-link"></i> <a href="/goto/919588" rel="noopener nofollow noreferrer" target="_blank">ebay.com.au</a></span></div>
+      <div class="foxshot-container"><a href="/goto/919763" rel="noopener nofollow" title="Go to https://www.youtube.com/show/SCh43FER1oSmhDwfAG9k6dIA" target="_blank"><img src="https://files.ozbargain.com.au/n/63/919763.jpg?h=69075119" alt="Demon Slayer: Kimetsu no Yaiba - All 6 Seasons (63 Episodes, 5 Movies) - Free Streaming for 7 Days @ Crunchyroll YouTube Channel"/></a></div>    </div>
+    <h2 class="title" id="title919763" data-title="Demon Slayer: Kimetsu no Yaiba - All 6 Seasons (63 Episodes, 5 Movies) - Free Streaming for 7 Days @ Crunchyroll YouTube Channel"><span class="tagger upcoming" title="Upcoming deal">In 2 days</span> <a href="/node/919763">Demon Slayer: Kimetsu no Yaiba - All 6 Seasons (63 Episodes, 5 Movies) - Free Streaming for 7 Days @ Crunchyroll YouTube Channel</a></h2>    <div class="submitted"><strong><a href="/user/193161" title="View user profile." onclick="return OzB.user_tooltip(this)">tempting</a></strong> on 15/08/2025 - 13:06 <span class="via"><i class="fa fa-link"></i> <a href="/goto/919763" rel="noopener nofollow noreferrer" target="_blank">youtube.com</a></span></div>
     <div class="content">
-      <div class="couponcode" title="Coupon code - click to copy to clipboard"><i class="fa fa-shopping-cart"></i><strong>APAY15</strong></div>      <p>Original Coupon Deal So you know how AMD Goes with pricing Nvidia Equivalent Minus $100 9060XT for $551.95 (Maybe an ATL) This card looks to slot below an 7800XT 16GB (FS3 Only) but these cards …</p>    </div>
-    <div class="links" id="links919588"><ul class="links"><li><i class="fa fa-comment"></i> 21</li><li><span class="tag"><i class="fa fa-tag"></i> <a href="/cat/computing">Computing</a></span></li><li><span class="nodeexpiry"><i class="fa fa-calendar"></i> 17 Aug <span class="marker">3 days left</span> </span></li></ul></div>  </div>
+            <p>Demon Slayer: Kimetsu no Yaiba Watch Party to Stream on YouTube Starting August 16 Get ready for the upcoming release of Demon Slayer: Kimetsu no Yaiba Infinity Castle with a YouTube stream of …</p>    </div>
+    <div class="links" id="links919763"><ul class="links"><li><i class="fa fa-comment"></i> 12</li><li><span class="tag"><i class="fa fa-tag"></i> <a href="/cat/entertainment">Entertainment</a></span></li><li><span class="nodefreebie"><i class="fa fa-tag"></i> Freebie</span></li><li><span class="nodeexpiry inactive"><i class="fa fa-calendar"></i> 17 Aug 3:00am&ndash;24 Aug 3:00am <span class="marker">In 2 days</span> </span></li></ul></div>  </div>
 </div>
-<div id="ozbads-0" class="ads adslisting" style="height:90px" data-fuse="21737090308"></div><div class="node node-ozbdeal node-teaser" id="node919576">
+<div id="ozbads-0" class="ads adslisting" style="height:90px" data-fuse="21737090308"></div><div class="node node-ozbdeal node-teaser" id="node919748">
   
   <div class="n-left">
-    <img src="https://files.ozbargain.com.au/u/27/80927-38.jpg?h=9c677c02" alt="" width="38" height="38" class="gravatar"/>    <div class="n-vote n-deal inact" data-nid="919576"><span class="nvb voteup"><i class="fa fa-plus"></i><span>95</span></span><span class="nvb votedown"><i class="fa fa-minus"></i><span>0</span></span></div>  </div>
+    <img src="https://files.ozbargain.com.au/u/61/71361-38.jpg?h=fe3aac7a" alt="" width="38" height="38" class="gravatar"/>    <div class="n-vote n-deal inact" data-nid="919748"><span class="nvb voteup"><i class="fa fa-plus"></i><span>33</span></span><span class="nvb votedown"><i class="fa fa-minus"></i><span>0</span></span></div>  </div>
 
   <div class="n-right">
     <div class="right">
-      <div class="foxshot-container"><a href="/goto/919576" rel="noopener nofollow" title="Go to https://www.menulog.com.au/#rewards" target="_blank"><img src="https://files.ozbargain.com.au/n/76/919576.jpg?h=58001c4e" alt="$20 off $40+ Spend (Delivery / Pick up) @ Menulog"/><span class="overlay overlay-afflink" title="Affiliate Link - click for information" onclick="OzB.node_affinfo(this);return false;">Affiliate</span></a></div>    </div>
-    <h2 class="title" id="title919576" data-title="$20 off $40+ Spend (Delivery / Pick up) @ Menulog"><a href="/node/919576"><em class="dollar">$20</em> off <em class="dollar">$40</em>+ Spend (Delivery / Pick up) @ Menulog</a></h2>    <div class="submitted"><strong><a href="/user/80927" title="View user profile." onclick="return OzB.user_tooltip(this)">hamza23</a></strong> on 14/08/2025 - 13:16 <span class="via"><i class="fa fa-link"></i> <a href="/goto/919576" rel="noopener nofollow noreferrer" target="_blank">menulog.com.au</a></span></div>
+      <div class="foxshot-container"><a href="/goto/919748" rel="noopener nofollow" title="Go to https://www.thegoodguys.com.au/apple-ipad-air-11-inches-m3-wi-fi-128gb-space-grey-mc9w4xa" target="_blank"><img src="https://files.ozbargain.com.au/n/48/919748.jpg?h=321bf84d" alt="Apple iPad Air (2025) M3 11&quot; Wi-Fi 128GB $837 + Delivery ($0 C&amp;C/ In-Store) @ The Good Guys &amp; JB Hi-Fi"/></a></div>    </div>
+    <h2 class="title" id="title919748" data-title="Apple iPad Air (2025) M3 11&quot; Wi-Fi 128GB $837 + Delivery ($0 C&amp;C/ In-Store) @ The Good Guys &amp; JB Hi-Fi"><a href="/node/919748">Apple iPad Air (2025) M3 11&quot; Wi-Fi 128GB <em class="dollar">$837</em> + Delivery (<em class="dollar">$0</em> C&amp;C/ In-Store) @ The Good Guys &amp; JB Hi-Fi</a></h2>    <div class="submitted"><strong><a href="/user/71361" title="View user profile." onclick="return OzB.user_tooltip(this)">pegaxs</a></strong> on 15/08/2025 - 12:01 <span class="via"><i class="fa fa-link"></i> <a href="/goto/919748" rel="noopener nofollow noreferrer" target="_blank">thegoodguys.com.au</a></span></div>
     <div class="content">
-      <div class="couponcode" title="Coupon code - click to copy to clipboard"><i class="fa fa-shopping-cart"></i><strong>AFTERPAY20</strong></div>      <p>Stacks with Menulog+ free delivery ($10 for 90 days) + no service fees if you order from a restaurant that does their own deliveries. Will stack with any restaurant discounts, eg 10% off your …</p>    </div>
-    <div class="links" id="links919576"><ul class="links"><li><i class="fa fa-comment"></i> 36</li><li><span class="tag"><i class="fa fa-tag"></i> <a href="/cat/dining-takeaway">Dining &amp; Takeaway</a></span></li><li><span class="nodeexpiry"><i class="fa fa-calendar"></i> 17 Aug <span class="marker">3 days left</span> </span></li></ul></div>  </div>
+            <p>Was looking around for a replacement for my dying iPad Air 3rd gen and found that they are on sale again. This time with a few more places to add to the list. Last time I saw the post by @Oneirics …</p>    </div>
+    <div class="links" id="links919748"><ul class="links"><li><i class="fa fa-comment"></i> 9</li><li><span class="tag"><i class="fa fa-tag"></i> <a href="/cat/computing">Computing</a></span></li><li><span class="nodeexpiry"><i class="fa fa-calendar"></i> 27 Aug <span class="marker">12 days left</span> </span></li></ul></div>  </div>
 </div>
-<div class="node node-ozbdeal node-teaser" id="node919575">
+<div class="node node-ozbdeal node-teaser" id="node919746">
   
   <div class="n-left">
-    <img src="https://files.ozbargain.com.au/u/10/434510-38.jpg?h=6a5f8599" alt="" width="38" height="38" class="gravatar"/>    <div class="n-vote n-deal inact" data-nid="919575"><span class="nvb voteup"><i class="fa fa-plus"></i><span>26</span></span><span class="nvb votedown"><i class="fa fa-minus"></i><span>0</span></span></div>  </div>
+    <img src="https://files.ozbargain.com.au/g/38.jpg" alt="" width="38" height="38" class="gravatar"/>    <div class="n-vote n-deal inact" data-nid="919746"><span class="nvb voteup"><i class="fa fa-plus"></i><span>57</span></span><span class="nvb votedown"><i class="fa fa-minus"></i><span>0</span></span></div>  </div>
 
   <div class="n-right">
     <div class="right">
-      <div class="foxshot-container"><a href="/goto/919575" rel="noopener nofollow" title="Go to https://www.ebay.com.au/itm/127185481491" target="_blank"><img src="https://files.ozbargain.com.au/n/75/919575.jpg?h=f380ad06" alt="[Afterpay] Galax GeForce RTX 5060 Ti 16GB Graphics Card $675.95 Delivered @ Centre Com eBay"/><span class="overlay overlay-afflink" title="Affiliate Link - click for information" onclick="OzB.node_affinfo(this);return false;">Affiliate</span></a></div>    </div>
-    <h2 class="title" id="title919575" data-title="[Afterpay] Galax GeForce RTX 5060 Ti 16GB Graphics Card $675.95 Delivered @ Centre Com eBay"><a href="/node/919575">[Afterpay] Galax GeForce RTX 5060 Ti 16GB Graphics Card <em class="dollar">$675.95</em> Delivered @ Centre Com eBay</a></h2>    <div class="submitted"><strong><a href="/user/434510" title="View user profile." onclick="return OzB.user_tooltip(this)">DigitalJeezus</a></strong> on 14/08/2025 - 13:12 <span class="via"><i class="fa fa-link"></i> <a href="/goto/919575" rel="noopener nofollow noreferrer" target="_blank">ebay.com.au</a></span></div>
+      <div class="foxshot-container"><a href="/goto/919746" rel="noopener nofollow" title="Go to https://www.amazon.com.au/dp/B0DKDJZ55B?smid=ANEGB3WVEVKZB" target="_blank"><img src="https://files.ozbargain.com.au/n/46/919746.jpg?h=57a98516" alt="Panasonic Lumix S9 Compact Full Frame Mirrorless Camera with 18-40mm Lens Kit, Crimson Red $1908.24 Delivered @ Amazon AU"/><span class="overlay overlay-afflink" title="Affiliate Link - click for information" onclick="OzB.node_affinfo(this);return false;">Affiliate</span></a></div>    </div>
+    <h2 class="title" id="title919746" data-title="Panasonic Lumix S9 Compact Full Frame Mirrorless Camera with 18-40mm Lens Kit, Crimson Red $1908.24 Delivered @ Amazon AU"><a href="/node/919746">Panasonic Lumix S9 Compact Full Frame Mirrorless Camera with 18-40mm Lens Kit, Crimson Red <em class="dollar">$1908.24</em> Delivered @ Amazon AU</a></h2>    <div class="submitted"><strong><a href="/user/303094" title="View user profile." onclick="return OzB.user_tooltip(this)">Jouemin</a></strong> on 15/08/2025 - 11:36 <span class="via"><i class="fa fa-link"></i> <a href="/goto/919746" rel="noopener nofollow noreferrer" target="_blank">amazon.com.au</a></span></div>
     <div class="content">
-      <div class="couponcode multi" title="Coupon codes - click to copy to clip board"><i class="fa fa-shopping-cart"></i><strong>APAY15</strong><strong>AUSGAMER7</strong></div>      <p>ATL for 5060 TI 16gig variant. Weirdly PGrid hasn&#039;t updated pricing. Edit 4:02 PM 14 Aug: Price has changed from $670.36 to $675.95 - seems like CentreCom has bumped up prices …</p>    </div>
-    <div class="links" id="links919575"><ul class="links"><li><i class="fa fa-comment"></i> 22</li><li><span class="tag"><i class="fa fa-tag"></i> <a href="/cat/computing">Computing</a></span></li><li><span class="nodeexpiry"><i class="fa fa-calendar"></i> 17 Aug <span class="marker">3 days left</span> </span></li></ul></div>  </div>
+            <p>Came across this one when looking for the Sony A7C ii, good price for a kit. Not sure if it can be stacked with other coupon deals. </p>    </div>
+    <div class="links" id="links919746"><ul class="links"><li><i class="fa fa-comment"></i> 60</li><li><span class="tag"><i class="fa fa-tag"></i> <a href="/cat/electrical-electronics">Electrical &amp; Electronics</a></span></li></ul></div>  </div>
 </div>
-<div class="node node-ozbdeal node-teaser" id="node919570">
+<div class="node node-ozbdeal node-teaser" id="node831691">
   
   <div class="n-left">
-    <img src="https://files.ozbargain.com.au/u/82/10382-38.jpg?h=7aab5faa" alt="" width="38" height="38" class="gravatar"/>    <div class="n-vote n-deal inact" data-nid="919570"><span class="nvb voteup"><i class="fa fa-plus"></i><span>35</span></span><span class="nvb votedown"><i class="fa fa-minus"></i><span>0</span></span></div>  </div>
+    <img src="https://files.ozbargain.com.au/g/38.jpg" alt="" width="38" height="38" class="gravatar"/>    <div class="n-vote n-deal inact" data-nid="831691"><span class="nvb voteup"><i class="fa fa-plus"></i><span>86</span></span><span class="nvb votedown"><i class="fa fa-minus"></i><span>0</span></span></div>  </div>
 
   <div class="n-right">
     <div class="right">
-      <div class="foxshot-container"><a href="/goto/919570" rel="noopener nofollow" title="Go to https://www.ebay.com.au/sch/i.html?_blrs=recall_filtering&amp;_dkr=1&amp;_nkw=samsung+galaxy+s25&amp;_oac=1&amp;_pgn=1&amp;_ssn=samsung-australia&amp;iconV2Request=true&amp;store_cat=0&amp;store_name=samsungaustralia" target="_blank"><img src="https://files.ozbargain.com.au/n/70/919570.jpg?h=0c6d0682" alt="[Afterpay] Samsung Galaxy S25 256 GB $849.15 Delivered @ Samsung via eBay"/><span class="overlay overlay-afflink" title="Affiliate Link - click for information" onclick="OzB.node_affinfo(this);return false;">Affiliate</span></a></div>    </div>
-    <h2 class="title" id="title919570" data-title="[Afterpay] Samsung Galaxy S25 256 GB $849.15 Delivered @ Samsung via eBay"><a href="/node/919570">[Afterpay] Samsung Galaxy S25 256 GB <em class="dollar">$849.15</em> Delivered @ Samsung via eBay</a></h2>    <div class="submitted"><strong><a href="/user/10382" title="View user profile." onclick="return OzB.user_tooltip(this)">scrimshaw</a></strong> on 14/08/2025 - 12:57 <span class="via"><i class="fa fa-link"></i> <a href="/goto/919570" rel="noopener nofollow noreferrer" target="_blank">ebay.com.au</a></span></div>
+      <div class="foxshot-container"><a href="/goto/831691" rel="noopener nofollow" title="Go to https://www.woolworthsrewards.com.au/extra.html" target="_blank"><img src="https://files.ozbargain.com.au/n/91/831691.jpg?h=68fe2e0c" alt="Everyday Extra: Bonus 1500 Reward Points for Referee and Referrer (Awarded after Referee&#039;s First Paid Month of Subscription)"/></a></div>    </div>
+    <h2 class="title" id="title831691" data-title="Everyday Extra: Bonus 1500 Reward Points for Referee and Referrer (Awarded after Referee&#039;s First Paid Month of Subscription)"><span class="tagger longrunning">Repost</span> <a href="/node/831691">Everyday Extra: Bonus 1500 Reward Points for Referee and Referrer (Awarded after Referee&#039;s First Paid Month of Subscription)</a></h2>    <div class="submitted"><strong><a href="/user/412846" title="View user profile." onclick="return OzB.user_tooltip(this)">pradeepnyk</a></strong> on 16/02/2024 - 12:28 <span class="via"><i class="fa fa-link"></i> <a href="/goto/831691" rel="noopener nofollow noreferrer" target="_blank">woolworthsrewards.com.au</a></span></div>
     <div class="content">
-      <div class="couponcode" title="Coupon code - click to copy to clipboard"><i class="fa fa-shopping-cart"></i><strong>APAY15</strong></div>      <p>Cheaper than buying from Samsung&#039;s main site or their Enhanced Partner Portal (which is $923). Available only in Silver, Navy, Mint or Icy Blue. Original Coupon Deal </p>    </div>
-    <div class="links" id="links919570"><ul class="links"><li><i class="fa fa-comment"></i> 35</li><li><span class="tag"><i class="fa fa-tag"></i> <a href="/cat/mobile">Mobile</a></span></li><li><span class="nodeexpiry"><i class="fa fa-calendar"></i> 17 Aug <span class="marker">3 days left</span> </span></li></ul></div>  </div>
+            <p>Get 1 month Everyday Extra subscription (original deal post) and for a user who has never subscribed to, or has previous subscription before 180 days, also get bonus 1500 Everyday Reward Points …</p>    </div>
+    <div class="links" id="links831691"><ul class="links"><li><i class="fa fa-comment"></i> 41</li><li><span class="tag"><i class="fa fa-tag"></i> <a href="/cat/groceries">Groceries</a></span></li></ul></div>  </div>
 </div>
-<div class="node node-ozbdeal node-teaser" id="node919559">
+<div class="node node-ozbdeal node-teaser" id="node919739">
   
   <div class="n-left">
-    <img src="https://files.ozbargain.com.au/g/38.jpg" alt="" width="38" height="38" class="gravatar"/>    <div class="n-vote n-deal inact" data-nid="919559"><span class="nvb voteup"><i class="fa fa-plus"></i><span>48</span></span><span class="nvb votedown"><i class="fa fa-minus"></i><span>0</span></span></div>  </div>
+    <img src="https://files.ozbargain.com.au/u/42/258142-38.jpg?h=1fcd2972" alt="" width="38" height="38" class="gravatar"/>    <div class="n-vote n-deal inact" data-nid="919739"><span class="nvb voteup"><i class="fa fa-plus"></i><span>304</span></span><span class="nvb votedown"><i class="fa fa-minus"></i><span>6</span></span></div>  </div>
 
   <div class="n-right">
     <div class="right">
-      <div class="foxshot-container"><a href="/goto/919559" rel="noopener nofollow" title="Go to https://www.amazon.com.au/dp/B0D6S1Y7RK?smid=ANEGB3WVEVKZB" target="_blank"><img src="https://files.ozbargain.com.au/n/59/919559.jpg?h=19cfa641" alt="Samsung Galaxy Watch Ultra 47mm Bluetooth + LTE $529 Delivered @ Amazon AU"/><span class="overlay overlay-afflink" title="Affiliate Link - click for information" onclick="OzB.node_affinfo(this);return false;">Affiliate</span></a></div>    </div>
-    <h2 class="title" id="title919559" data-title="Samsung Galaxy Watch Ultra 47mm Bluetooth + LTE $529 Delivered @ Amazon AU"><a href="/node/919559">Samsung Galaxy Watch Ultra 47mm Bluetooth + LTE <em class="dollar">$529</em> Delivered @ Amazon AU</a></h2>    <div class="submitted"><strong><a href="/user/285949" title="View user profile." onclick="return OzB.user_tooltip(this)">supersour</a></strong> on 14/08/2025 - 12:02 <span class="via"><i class="fa fa-link"></i> <a href="/goto/919559" rel="noopener nofollow noreferrer" target="_blank">amazon.com.au</a></span></div>
+      <div class="foxshot-container"><a href="/goto/919739" rel="noopener nofollow" title="Go to http://www.woolworths.com.au/" target="_blank"><img src="https://files.ozbargain.com.au/n/39/919739.jpg?h=a41b7735" alt="[Hack] Save 2¢ Per Transaction at Self Serve Checkout @ Woolworths &amp; Coles"/><span class="overlay overlay-afflink" title="Affiliate Link - click for information" onclick="OzB.node_affinfo(this);return false;">Affiliate</span></a></div>    </div>
+    <h2 class="title" id="title919739" data-title="[Hack] Save 2¢ Per Transaction at Self Serve Checkout @ Woolworths &amp; Coles"><span class="tagger longrunning">Long Running</span> <a href="/node/919739">[Hack] Save 2¢ Per Transaction at Self Serve Checkout @ Woolworths &amp; Coles</a></h2>    <div class="submitted"><strong><a href="/user/258142" title="View user profile." onclick="return OzB.user_tooltip(this)">Churna</a></strong> on 15/08/2025 - 11:00 <span class="via"><i class="fa fa-link"></i> <a href="/goto/919739" rel="noopener nofollow noreferrer" target="_blank">woolworths.com.au</a></span></div>
     <div class="content">
-            <p>Been keeping an eye out, now at an ATL! Titanium Silver and Titanium Grey available at this price. </p>    </div>
-    <div class="links" id="links919559"><ul class="links"><li><i class="fa fa-comment"></i> 46</li><li><span class="tag"><i class="fa fa-tag"></i> <a href="/cat/electrical-electronics">Electrical &amp; Electronics</a></span></li></ul></div>  </div>
+            <p>Here’s a quirky little hack to cut a couple of cents off your weekly Woolworths or Coles shop. At a self-serve checkout that accepts both cash and card, choose Split Payment. Click to pay with …</p>    </div>
+    <div class="links" id="links919739"><ul class="links"><li><i class="fa fa-comment"></i> 164</li><li><span class="tag"><i class="fa fa-tag"></i> <a href="/cat/groceries">Groceries</a></span></li></ul></div>  </div>
 </div>
-<div class="node node-ozbdeal node-teaser" id="node919553">
+<div class="node node-ozbdeal node-teaser" id="node919738">
   
   <div class="n-left">
-    <img src="https://files.ozbargain.com.au/g/38.jpg" alt="" width="38" height="38" class="gravatar"/>    <div class="n-vote n-deal inact" data-nid="919553"><span class="nvb voteup"><i class="fa fa-plus"></i><span>82</span></span><span class="nvb votedown"><i class="fa fa-minus"></i><span>0</span></span></div>  </div>
+    <img src="https://files.ozbargain.com.au/g/38.jpg" alt="" width="38" height="38" class="gravatar"/>    <div class="n-vote n-deal inact" data-nid="919738"><span class="nvb voteup"><i class="fa fa-plus"></i><span>34</span></span><span class="nvb votedown"><i class="fa fa-minus"></i><span>0</span></span></div>  </div>
 
   <div class="n-right">
     <div class="right">
-      <div class="foxshot-container"><a href="/goto/919553" rel="noopener nofollow" title="Go to https://www.ebay.com.au/itm/257064852065" target="_blank"><img src="https://files.ozbargain.com.au/n/53/919553.jpg?h=5c4a85b6" alt="[Afterpay] PowerColor Radeon RX 9070 XT Reaper 16GB Graphics Card $1049 Delivered @ MetroCom eBay"/><span class="overlay overlay-afflink" title="Affiliate Link - click for information" onclick="OzB.node_affinfo(this);return false;">Affiliate</span></a></div>    </div>
-    <h2 class="title" id="title919553" data-title="[Afterpay] PowerColor Radeon RX 9070 XT Reaper 16GB Graphics Card $1049 Delivered @ MetroCom eBay"><a href="/node/919553">[Afterpay] PowerColor Radeon RX 9070 XT Reaper 16GB Graphics Card <em class="dollar">$1049</em> Delivered @ MetroCom eBay</a></h2>    <div class="submitted"><strong><a href="/user/356090" title="View user profile." onclick="return OzB.user_tooltip(this)">r3load3d</a></strong> on 14/08/2025 - 11:36 <span class="via"><i class="fa fa-link"></i> <a href="/goto/919553" rel="noopener nofollow noreferrer" target="_blank">ebay.com.au</a></span></div>
+      <div class="foxshot-container"><a href="/goto/919738" rel="noopener nofollow" title="Go to https://experience.flybuys.com.au/" target="_blank"><img src="https://files.ozbargain.com.au/n/38/919738.jpg?h=bba8f168" alt="10% off Minimum $60 Spend at Coles Online or In-Store (Max $50 off, Activation Required) @ Flybuys"/></a></div>    </div>
+    <h2 class="title" id="title919738" data-title="10% off Minimum $60 Spend at Coles Online or In-Store (Max $50 off, Activation Required) @ Flybuys"><span class="tagger targeted">Targeted</span> <a href="/node/919738">10% off Minimum <em class="dollar">$60</em> Spend at Coles Online or In-Store (Max <em class="dollar">$50</em> off, Activation Required) @ Flybuys</a></h2>    <div class="submitted"><strong><a href="/user/55843" title="View user profile." onclick="return OzB.user_tooltip(this)">stripe</a></strong> on 15/08/2025 - 10:57 <span class="via"><i class="fa fa-link"></i> <a href="/goto/919738" rel="noopener nofollow noreferrer" target="_blank">experience.flybuys.com.au</a></span></div>
     <div class="content">
-      <div class="couponcode" title="Coupon code - click to copy to clipboard"><i class="fa fa-shopping-cart"></i><strong>APAY15</strong></div>      <p>ATL for the 9070 XT. This is also the smallest 9070 XT, good for SFF builds. Original Coupon Deal </p>    </div>
-    <div class="links" id="links919553"><ul class="links"><li><i class="fa fa-comment"></i> 34</li><li><span class="tag"><i class="fa fa-tag"></i> <a href="/cat/computing">Computing</a></span></li><li><span class="nodeexpiry"><i class="fa fa-calendar"></i> 17 Aug <span class="marker">3 days left</span> </span></li></ul></div>  </div>
+            <p>Just received in my inbox and will be targeted. 10% off is redeemable once and valid in-store or online for orders over $60, placed and delivered or collected between Fri 15 Aug and Thu 21 Aug …</p>    </div>
+    <div class="links" id="links919738"><ul class="links"><li><i class="fa fa-comment"></i> 15</li><li><span class="tag"><i class="fa fa-tag"></i> <a href="/cat/groceries">Groceries</a></span></li><li><span class="nodeexpiry"><i class="fa fa-calendar"></i> 21 Aug <span class="marker">6 days left</span> </span></li></ul></div>  </div>
 </div>
-<div class="node node-ozbdeal node-teaser" id="node919537">
+<div class="node node-ozbdeal node-teaser" id="node919726">
   
   <div class="n-left">
-    <img src="https://files.ozbargain.com.au/g/38.jpg" alt="" width="38" height="38" class="gravatar"/>    <div class="n-vote n-deal inact" data-nid="919537"><span class="nvb voteup"><i class="fa fa-plus"></i><span>138</span></span><span class="nvb votedown"><i class="fa fa-minus"></i><span>0</span></span></div>  </div>
+    <img src="https://files.ozbargain.com.au/g/38.jpg" alt="" width="38" height="38" class="gravatar"/>    <div class="n-vote n-deal inact" data-nid="919726"><span class="nvb voteup"><i class="fa fa-plus"></i><span>62</span></span><span class="nvb votedown"><i class="fa fa-minus"></i><span>0</span></span></div>  </div>
 
   <div class="n-right">
     <div class="right">
-      <div class="foxshot-container"><a href="/goto/919537" rel="noopener nofollow" title="Go to https://www.coles.com.au/" target="_blank"><img src="https://files.ozbargain.com.au/n/37/919537.jpg?h=4fcd2232" alt="Spend $X (Min $50) in 1 Transaction at Coles Each Week for 4 Consecutive Weeks &amp; Get 10,000 Bonus Flybuys Points ($50) @ Flybuys"/></a></div>    </div>
-    <h2 class="title" id="title919537" data-title="Spend $X (Min $50) in 1 Transaction at Coles Each Week for 4 Consecutive Weeks &amp; Get 10,000 Bonus Flybuys Points ($50) @ Flybuys"><span class="tagger upcoming" title="Upcoming deal">Tomorrow</span> <a href="/node/919537">Spend $X (Min <em class="dollar">$50</em>) in 1 Transaction at Coles Each Week for 4 Consecutive Weeks &amp; Get 10,000 Bonus Flybuys Points (<em class="dollar">$50</em>) @ Flybuys</a></h2>    <div class="submitted"><strong><a href="/user/468751" title="View user profile." onclick="return OzB.user_tooltip(this)">nY289</a></strong> on 14/08/2025 - 10:48 <span class="via"><i class="fa fa-link"></i> <a href="/goto/919537" rel="noopener nofollow noreferrer" target="_blank">coles.com.au</a></span></div>
+      <div class="foxshot-container"><a href="/goto/919726" rel="noopener nofollow" title="Go to https://www.dell.com/en-au/shop/dell-27-200hz-monitor-se2725hg/apd/210-bsgr" target="_blank"><img src="https://files.ozbargain.com.au/n/26/919726.jpg?h=88c3d59b" alt="Dell 27&quot; 200Hz FHD IPS Monitor - SE2725HG $176.20 Delivered @ Dell"/><span class="overlay overlay-afflink" title="Affiliate Link - click for information" onclick="OzB.node_affinfo(this);return false;">Affiliate</span></a></div>    </div>
+    <h2 class="title" id="title919726" data-title="Dell 27&quot; 200Hz FHD IPS Monitor - SE2725HG $176.20 Delivered @ Dell"><a href="/node/919726">Dell 27&quot; 200Hz FHD IPS Monitor - SE2725HG <em class="dollar">$176.20</em> Delivered @ Dell</a></h2>    <div class="submitted"><strong><a href="/user/83105" title="View user profile." onclick="return OzB.user_tooltip(this)">jkiller295</a></strong> on 15/08/2025 - 09:21 <span class="via"><i class="fa fa-link"></i> <a href="/goto/919726" rel="noopener nofollow noreferrer" target="_blank">dell.com</a></span></div>
     <div class="content">
-            <p>Check your Flybuys accounts and activate. Week 1 starts tomorrow. Week 1 Fri 15 Aug to Sun 24 Aug 2025 Week 2 Mon 25 Aug to Sun 31 Aug 2025 Week 3 Mon 1 Sep to Sun 7 Sep 2025 Week 4 Mon 8 Sep to Sun …</p>    </div>
-    <div class="links" id="links919537"><ul class="links"><li><i class="fa fa-comment"></i> 50</li><li><span class="tag"><i class="fa fa-tag"></i> <a href="/cat/groceries">Groceries</a></span></li><li><span class="nodeexpiry inactive"><i class="fa fa-calendar"></i> 15&ndash;24 Aug <span class="marker">Tomorrow</span> </span></li></ul></div>  </div>
+      <div class="couponcode" title="Coupon code - click to copy to clipboard"><i class="fa fa-shopping-cart"></i><strong>DNCPAU11%</strong></div>      <p>Original Coupon Deal Maximum Resolution: 1920 x 1080 Standard Refresh Rate: 200 Hz Colour Supported: 16.7 Million Colours Native Contrast Ratio: 1,000:1 Brightness: 300 cd/m2 Tearing Prevention …</p>    </div>
+    <div class="links" id="links919726"><ul class="links"><li><i class="fa fa-comment"></i> 33</li><li><span class="tag"><i class="fa fa-tag"></i> <a href="/cat/computing">Computing</a></span></li><li><span class="nodeexpiry"><i class="fa fa-calendar"></i> 31 Oct <span class="marker">77 days left</span> </span></li></ul></div>  </div>
 </div>
-<div class="node node-ozbdeal node-teaser" id="node919533">
+<div class="node node-ozbdeal node-teaser" id="node919714">
   
   <div class="n-left">
-    <img src="https://files.ozbargain.com.au/g/38.jpg" alt="" width="38" height="38" class="gravatar"/>    <div class="n-vote n-deal inact" data-nid="919533"><span class="nvb voteup"><i class="fa fa-plus"></i><span>49</span></span><span class="nvb votedown"><i class="fa fa-minus"></i><span>0</span></span></div>  </div>
+    <img src="https://files.ozbargain.com.au/g/38.jpg" alt="" width="38" height="38" class="gravatar"/>    <div class="n-vote n-deal inact" data-nid="919714"><span class="nvb voteup"><i class="fa fa-plus"></i><span>44</span></span><span class="nvb votedown"><i class="fa fa-minus"></i><span>0</span></span></div>  </div>
 
   <div class="n-right">
     <div class="right">
-      <div class="foxshot-container"><a href="/goto/919533" rel="noopener nofollow" title="Go to https://www.ebay.com.au/itm/127129487824" target="_blank"><img src="https://files.ozbargain.com.au/n/33/919533.jpg?h=8601828f" alt="[Afterpay] PowerColor Radeon Hellhound RX 9070 XT 16GB Graphics Card $1101.14 Delivered @ Centre Com eBay"/><span class="overlay overlay-afflink" title="Affiliate Link - click for information" onclick="OzB.node_affinfo(this);return false;">Affiliate</span></a></div>    </div>
-    <h2 class="title" id="title919533" data-title="[Afterpay] PowerColor Radeon Hellhound RX 9070 XT 16GB Graphics Card $1101.14 Delivered @ Centre Com eBay"><a href="/node/919533">[Afterpay] PowerColor Radeon Hellhound RX 9070 XT 16GB Graphics Card <em class="dollar">$1101.14</em> Delivered @ Centre Com eBay</a></h2>    <div class="submitted"><strong><a href="/user/363973" title="View user profile." onclick="return OzB.user_tooltip(this)">nafis</a></strong> on 14/08/2025 - 10:32 <span class="via"><i class="fa fa-link"></i> <a href="/goto/919533" rel="noopener nofollow noreferrer" target="_blank">ebay.com.au</a></span></div>
+      <div class="foxshot-container"><a href="/goto/919714" rel="noopener nofollow" title="Go to https://www.officeworks.com.au/information/free-delivery-weekend" target="_blank"><img src="https://files.ozbargain.com.au/n/14/919714.jpg?h=5c02a924" alt="Free Standard Delivery (Friday 15/8 to Sunday 17/8 Only, Excludes Big &amp; Bulky Delivery) @ Officeworks"/></a></div>    </div>
+    <h2 class="title" id="title919714" data-title="Free Standard Delivery (Friday 15/8 to Sunday 17/8 Only, Excludes Big &amp; Bulky Delivery) @ Officeworks"><a href="/node/919714">Free Standard Delivery (Friday 15/8 to Sunday 17/8 Only, Excludes Big &amp; Bulky Delivery) @ Officeworks</a></h2>    <div class="submitted"><span class="plate learner" title="1st Deal Posted by This User">L</span><strong><a href="/user/330214" title="View user profile." onclick="return OzB.user_tooltip(this)">Liger Zero</a></strong> on 15/08/2025 - 07:52 <span class="via"><i class="fa fa-link"></i> <a href="/goto/919714" rel="noopener nofollow noreferrer" target="_blank">officeworks.com.au</a></span></div>
     <div class="content">
-      <div class="couponcode multi" title="Coupon codes - click to copy to clip board"><i class="fa fa-shopping-cart"></i><strong>APAY15</strong><strong>AUSGAMER7</strong></div>      <p>Near ATL price for the 9070 XT. Requires paying with afterpay edit: cheaper 9070 xt deal here: https://www.ozbargain.com.au/node/919553 Original Coupon Deal price tracker: …</p>    </div>
-    <div class="links" id="links919533"><ul class="links"><li><i class="fa fa-comment"></i> 22</li><li><span class="tag"><i class="fa fa-tag"></i> <a href="/cat/computing">Computing</a></span></li><li><span class="nodeexpiry"><i class="fa fa-calendar"></i> 17 Aug <span class="marker">3 days left</span> </span></li></ul></div>  </div>
+            <p>Normally free delivery on orders over $65 to Metro addresses or to OnePass members to metro and regional addresses. Excludes Big &amp; Bulky Delivery </p>    </div>
+    <div class="links" id="links919714"><ul class="links"><li><i class="fa fa-comment"></i> 5</li><li><span class="tag"><i class="fa fa-tag"></i> <a href="/cat/other">Other</a></span></li><li><span class="nodeexpiry"><i class="fa fa-calendar"></i> 17 Aug <span class="marker">2 days left</span> </span></li></ul></div>  </div>
 </div>
-<div class="node node-ozbdeal node-teaser" id="node919520">
+<div class="node node-ozbdeal node-teaser" id="node919708">
   
   <div class="n-left">
-    <img src="https://files.ozbargain.com.au/g/38.jpg" alt="" width="38" height="38" class="gravatar"/>    <div class="n-vote n-deal inact" data-nid="919520"><span class="nvb voteup"><i class="fa fa-plus"></i><span>91</span></span><span class="nvb votedown"><i class="fa fa-minus"></i><span>0</span></span></div>  </div>
+    <img src="https://files.ozbargain.com.au/g/38.jpg" alt="" width="38" height="38" class="gravatar"/>    <div class="n-vote n-deal inact" data-nid="919708"><span class="nvb voteup"><i class="fa fa-plus"></i><span>41</span></span><span class="nvb votedown"><i class="fa fa-minus"></i><span>0</span></span></div>  </div>
 
   <div class="n-right">
     <div class="right">
-      <div class="foxshot-container"><a href="/goto/919520" rel="noopener nofollow" title="Go to https://www.velocityfrequentflyer.com/frequent-flyer-credit-cards/direct-earn-cards" target="_blank"><img src="https://files.ozbargain.com.au/n/20/919520.jpg?h=da7fc327" alt="20,000 Bonus Points or Double Earn Rate for 6 Month (60,000 Capped) with Signup of Select Credit Cards @ Velocity Frequent Flyer"/></a></div>    </div>
-    <h2 class="title" id="title919520" data-title="20,000 Bonus Points or Double Earn Rate for 6 Month (60,000 Capped) with Signup of Select Credit Cards @ Velocity Frequent Flyer"><a href="/node/919520">20,000 Bonus Points or Double Earn Rate for 6 Month (60,000 Capped) with Signup of Select Credit Cards @ Velocity Frequent Flyer</a></h2>    <div class="submitted"><strong><a href="/user/177984" title="View user profile." onclick="return OzB.user_tooltip(this)">sasto</a></strong> on 14/08/2025 - 09:49 <span class="via"><i class="fa fa-link"></i> <a href="/goto/919520" rel="noopener nofollow noreferrer" target="_blank">velocityfrequentflyer.com</a></span></div>
+      <div class="foxshot-container"><a href="/goto/919708" rel="noopener nofollow" title="Go to https://www.amazon.com.au/dp/B0BHPDN1BC" target="_blank"><img src="https://files.ozbargain.com.au/n/08/919708.jpg?h=5d04ee46" alt="Tomtoc Travel Backpack 40L $99.99 Delivered @ Tomtoc via Amazon AU"/><span class="overlay overlay-afflink" title="Affiliate Link - click for information" onclick="OzB.node_affinfo(this);return false;">Affiliate</span></a></div>    </div>
+    <h2 class="title" id="title919708" data-title="Tomtoc Travel Backpack 40L $99.99 Delivered @ Tomtoc via Amazon AU"><a href="/node/919708">Tomtoc Travel Backpack 40L <em class="dollar">$99.99</em> Delivered @ Tomtoc via Amazon AU</a></h2>    <div class="submitted"><strong><a href="/user/21136" title="View user profile." onclick="return OzB.user_tooltip(this)">Humblefolk</a></strong> on 15/08/2025 - 07:04 <span class="via"><i class="fa fa-link"></i> <a href="/goto/919708" rel="noopener nofollow noreferrer" target="_blank">amazon.com.au</a></span></div>
     <div class="content">
-            <p>Choose your runway upgrade with a Velocity Frequent Flyer partner credit card: Option 1: 20,000 bonus Points - That&#039;s on top of the individual card sign up bonus offers available from …</p>    </div>
-    <div class="links" id="links919520"><ul class="links"><li><i class="fa fa-comment"></i> 72</li><li><span class="tag"><i class="fa fa-tag"></i> <a href="/cat/financial">Financial</a></span></li><li><span class="nodeexpiry"><i class="fa fa-calendar"></i> 30 Sep <span class="marker">47 days left</span> </span></li></ul></div>  </div>
+            <p>Great EDC and travel backpack! Large Capacity &amp; Organized: 40L, Dimensions: 52 x 34 x 23 cm; Features 3 spacious compartments - the quick-access main compartment, tech storage and front pocket …</p>    </div>
+    <div class="links" id="links919708"><ul class="links"><li><i class="fa fa-comment"></i> 55</li><li><span class="tag"><i class="fa fa-tag"></i> <a href="/cat/travel">Travel</a></span></li></ul></div>  </div>
 </div>
-<div class="node node-ozbdeal node-teaser" id="node919512">
+<div class="node node-ozbdeal node-teaser" id="node919706">
   
   <div class="n-left">
-    <img src="https://files.ozbargain.com.au/u/54/11054-38.jpg?h=53b0ca70" alt="" width="38" height="38" class="gravatar"/>    <div class="n-vote n-deal inact" data-nid="919512"><span class="nvb voteup"><i class="fa fa-plus"></i><span>46</span></span><span class="nvb votedown"><i class="fa fa-minus"></i><span>0</span></span></div>  </div>
+    <img src="https://files.ozbargain.com.au/g/38.jpg" alt="" width="38" height="38" class="gravatar"/>    <div class="n-vote n-deal inact" data-nid="919706"><span class="nvb voteup"><i class="fa fa-plus"></i><span>64</span></span><span class="nvb votedown"><i class="fa fa-minus"></i><span>0</span></span></div>  </div>
 
   <div class="n-right">
     <div class="right">
-      <div class="foxshot-container"><a href="/goto/919512" rel="noopener nofollow" title="Go to https://www.kmart.com.au/product/jarvis-walker-50-pack-baitholder-hooks-size-20-42468325/" target="_blank"><img src="https://files.ozbargain.com.au/n/12/919512.jpg?h=322eb65d" alt="Jarvis Walker Hooks $2, Lures $4, 20m Fluorocarbon $3, Tackle Box $6 &amp; More + Delivery ($0 C&amp;C/ in-Store/ OnePass/ $65+) @ Kmart"/></a></div>    </div>
-    <h2 class="title" id="title919512" data-title="Jarvis Walker Hooks $2, Lures $4, 20m Fluorocarbon $3, Tackle Box $6 &amp; More + Delivery ($0 C&amp;C/ in-Store/ OnePass/ $65+) @ Kmart"><a href="/node/919512">Jarvis Walker Hooks <em class="dollar">$2</em>, Lures <em class="dollar">$4</em>, 20m Fluorocarbon <em class="dollar">$3</em>, Tackle Box <em class="dollar">$6</em> &amp; More + Delivery (<em class="dollar">$0</em> C&amp;C/ in-Store/ OnePass/ <em class="dollar">$65</em>+) @ Kmart</a></h2>    <div class="submitted"><strong><a href="/user/11054" title="View user profile." onclick="return OzB.user_tooltip(this)">BargainBilby</a></strong> on 14/08/2025 - 08:55 <span class="via"><i class="fa fa-link"></i> <a href="/goto/919512" rel="noopener nofollow noreferrer" target="_blank">kmart.com.au</a></span></div>
+      <div class="foxshot-container"><a href="/goto/919706" rel="noopener nofollow" title="Go to https://www.commbank.com.au/commbank-yello.html" target="_blank"><img src="https://files.ozbargain.com.au/n/06/919706.jpg?h=ea62a4cf" alt="Coles: Get $5/ $10/ $15 Cashback When You Spend $50/ $100/ $150 or More @ Commbank Yello (Activation Required)"/></a></div>    </div>
+    <h2 class="title" id="title919706" data-title="Coles: Get $5/ $10/ $15 Cashback When You Spend $50/ $100/ $150 or More @ Commbank Yello (Activation Required)"><span class="tagger targeted">Targeted</span> <a href="/node/919706">Coles: Get <em class="dollar">$5</em>/ <em class="dollar">$10</em>/ <em class="dollar">$15</em> Cashback When You Spend <em class="dollar">$50</em>/ <em class="dollar">$100</em>/ <em class="dollar">$150</em> or More @ Commbank Yello (Activation Required)</a></h2>    <div class="submitted"><strong><a href="/user/204636" title="View user profile." onclick="return OzB.user_tooltip(this)">djsydney</a></strong> on 15/08/2025 - 06:25 <span class="via"><i class="fa fa-link"></i> <a href="/goto/919706" rel="noopener nofollow noreferrer" target="_blank">commbank.com.au</a></span></div>
     <div class="content">
-            <p> Description Category Sale Price Original Price Discount Store 5 Pack Jarvis Walker 110mm Minnow Lures - Multi, Asstd {lots} -SA-NT-NSW-VIC-TAS-ACT-QLD-WA- Sports &amp; Outdoor …</p>    </div>
-    <div class="links" id="links919512"><ul class="links"><li><i class="fa fa-comment"></i> 7</li><li><span class="tag"><i class="fa fa-tag"></i> <a href="/cat/sports-outdoors">Sports &amp; Outdoors</a></span></li></ul></div>  </div>
+            <p>The monthly Coles offer. This is eligible when you purchase a gift card as well. Other have also reported - Getting cash out with a purchase counts too Offer not eligible at any Coles Express …</p>    </div>
+    <div class="links" id="links919706"><ul class="links"><li><i class="fa fa-comment"></i> 42</li><li><span class="tag"><i class="fa fa-tag"></i> <a href="/cat/groceries">Groceries</a></span></li><li><span class="nodeexpiry"><i class="fa fa-calendar"></i> 27 Aug <span class="marker">12 days left</span> </span></li></ul></div>  </div>
 </div>
 <div class="node node-teaser newsletter feature m-expand">
   <div class="n-right">
@@ -263,7 +263,7 @@ OzB.dismissNewsletter(1);
     </div>
     <h2>Subscribe to the Daily OzBargain Newsletter</h2>
         <form method="post" id="newsletter_form" action="/api/newsletter/subscription" onsubmit="return false;">
-      <input type="hidden" name="form_token" value="90d0ddcc1032607cf1495703b2fbc6cb"/>
+      <input type="hidden" name="form_token" value="a9c2c47ca5593edcbf165fb992f05ec6"/>
       <input type="hidden" name="subscribe" value="1"/>
       <p>Subscribe to our newsletter and stay informed about the latest deals, competitions and discussions! Email is sent out every morning.</p>
       <div class="form-item"><input type="email" name="email" class="form-text" size="30" placeholder="Email address"/></div>
@@ -274,166 +274,127 @@ OzB.dismissNewsletter(1);
     </form>
       </div>
 </div>
-<div class="node node-ozbdeal node-teaser" id="node919506">
+<div class="node node-ozbdeal node-teaser" id="node919696">
   
   <div class="n-left">
-    <img src="https://files.ozbargain.com.au/u/57/318657-38.jpg?h=eb5d4acd" alt="" width="38" height="38" class="gravatar"/>    <div class="n-vote n-deal inact" data-nid="919506"><span class="nvb voteup"><i class="fa fa-plus"></i><span>58</span></span><span class="nvb votedown"><i class="fa fa-minus"></i><span>0</span></span></div>  </div>
+    <img src="https://files.ozbargain.com.au/g/38.jpg" alt="" width="38" height="38" class="gravatar"/>    <div class="n-vote n-deal inact" data-nid="919696"><span class="nvb voteup"><i class="fa fa-plus"></i><span>45</span></span><span class="nvb votedown"><i class="fa fa-minus"></i><span>0</span></span></div>  </div>
 
   <div class="n-right">
     <div class="right">
-      <div class="foxshot-container"><a href="/goto/919506" rel="noopener nofollow" title="Go to https://www.amazon.com.au/dp/B08J2HXYPH?smid=A3BJUU30I41JQZ" target="_blank"><img src="https://files.ozbargain.com.au/n/06/919506.jpg?h=dacc9dac" alt="2-Pack 100W 2m USB Type-C Cables $10.11 + Delivery ($0 with Prime/ $59 Spend) @ INIU via Amazon AU"/><span class="overlay overlay-afflink" title="Affiliate Link - click for information" onclick="OzB.node_affinfo(this);return false;">Affiliate</span></a></div>    </div>
-    <h2 class="title" id="title919506" data-title="2-Pack 100W 2m USB Type-C Cables $10.11 + Delivery ($0 with Prime/ $59 Spend) @ INIU via Amazon AU"><a href="/node/919506">2-Pack 100W 2m USB Type-C Cables <em class="dollar">$10.11</em> + Delivery (<em class="dollar">$0</em> with Prime/ <em class="dollar">$59</em> Spend) @ INIU via Amazon AU</a></h2>    <div class="submitted"><strong><a href="/user/318657" title="View user profile." onclick="return OzB.user_tooltip(this)">kronosxmate</a></strong> on 14/08/2025 - 08:04 <span class="via"><i class="fa fa-link"></i> <a href="/goto/919506" rel="noopener nofollow noreferrer" target="_blank">amazon.com.au</a></span></div>
+      <div class="foxshot-container"><a href="/goto/919696" rel="noopener nofollow" title="Go to https://store.epicgames.com/en-US/free-games" target="_blank"><img src="https://files.ozbargain.com.au/n/96/919696.jpg?h=98f8f0a2" alt="[PC, Epic] Free - Kamaeru @ Epic Games"/></a></div>    </div>
+    <h2 class="title" id="title919696" data-title="[PC, Epic] Free - Kamaeru @ Epic Games"><span class="tagger upcoming" title="Upcoming deal">In 7 days</span> <a href="/node/919696">[PC, Epic] Free - Kamaeru @ Epic Games</a></h2>    <div class="submitted"><strong><a href="/user/96859" title="View user profile." onclick="return OzB.user_tooltip(this)">456</a></strong> on 15/08/2025 - 00:16 <span class="via"><i class="fa fa-link"></i> <a href="/goto/919696" rel="noopener nofollow noreferrer" target="_blank">store.epicgames.com</a></span></div>
     <div class="content">
-      <div class="couponcode" title="Coupon code - click to copy to clipboard"><i class="fa fa-shopping-cart"></i><strong>G9TR4IER</strong></div>      <p>Click Redeem 20% coupon to receive the lower price. Brings it down to $10.11 at checkout. These are USB 2.0 cables, 480Mb/s max transfer speed. What You Get: 2m USB-C to USB-C cable x2, cable strap …</p>    </div>
-    <div class="links" id="links919506"><ul class="links"><li><i class="fa fa-comment"></i> 26</li><li><span class="tag"><i class="fa fa-tag"></i> <a href="/cat/electrical-electronics">Electrical &amp; Electronics</a></span></li></ul></div>  </div>
+            <p>Next week&#039;s freebie from Epic games. As usual, available from 1am AEST. Rated very positive on Steam. Checkout - https://store.epicgames.com/purchase?offers=1-a1fb482c4c6c4d… </p>    </div>
+    <div class="links" id="links919696"><ul class="links"><li><i class="fa fa-comment"></i> 5</li><li><span class="tag"><i class="fa fa-tag"></i> <a href="/cat/gaming">Gaming</a></span></li><li><span class="nodefreebie"><i class="fa fa-tag"></i> Freebie</span></li><li><span class="nodeexpiry inactive"><i class="fa fa-calendar"></i> 22 Aug 1:00am&ndash;29 Aug 1:00am <span class="marker">In 7 days</span> </span></li></ul></div>  </div>
 </div>
-<div class="node node-ozbdeal node-teaser" id="node519789">
+<div class="node node-ozbdeal node-teaser" id="node919686">
   
   <div class="n-left">
-    <img src="https://files.ozbargain.com.au/u/48/31948-38.jpg?h=9349565d" alt="" width="38" height="38" class="gravatar"/>    <div class="n-vote n-deal inact" data-nid="519789"><span class="nvb voteup"><i class="fa fa-plus"></i><span>373</span></span><span class="nvb votedown"><i class="fa fa-minus"></i><span>0</span></span></div>  </div>
+    <img src="https://files.ozbargain.com.au/g/38.jpg" alt="" width="38" height="38" class="gravatar"/>    <div class="n-vote n-deal inact" data-nid="919686"><span class="nvb voteup"><i class="fa fa-plus"></i><span>149</span></span><span class="nvb votedown"><i class="fa fa-minus"></i><span>0</span></span></div>  </div>
 
   <div class="n-right">
     <div class="right">
-      <div class="foxshot-container"><a href="/goto/519789" rel="noopener nofollow" title="Go to https://www.amazon.com.au/dp/B00U867I3S" target="_blank"><img src="https://files.ozbargain.com.au/n/89/519789.jpg?h=6097bcf3" alt="The Side Hustle: How to Turn Your Spare Time into $1000 A Month or More - $0.00 eBook @ Amazon AU/US"/><span class="overlay overlay-afflink" title="Affiliate Link - click for information" onclick="OzB.node_affinfo(this);return false;">Affiliate</span></a></div>    </div>
-    <h2 class="title" id="title519789" data-title="The Side Hustle: How to Turn Your Spare Time into $1000 A Month or More - $0.00 eBook @ Amazon AU/US"><span class="tagger longrunning">Repost</span> <a href="/node/519789">The Side Hustle: How to Turn Your Spare Time into <em class="dollar">$1000</em> A Month or More - <em class="dollar">$0.00</em> eBook @ Amazon AU/US</a></h2>    <div class="submitted"><strong><a href="/user/31948" title="View user profile." onclick="return OzB.user_tooltip(this)">dogebargain</a></strong> on 20/02/2020 - 07:57 <span class="via"><i class="fa fa-link"></i> <a href="/goto/519789" rel="noopener nofollow noreferrer" target="_blank">amazon.com.au</a></span></div>
+      <div class="foxshot-container"><a href="/goto/919686" rel="noopener nofollow" title="Go to https://www.samsung.com/au/multistore/government_au/" target="_blank"><img src="https://files.ozbargain.com.au/n/86/919686.jpg?h=35030144" alt="Samsung S85F 4K OLED TV: 83&quot; $3499.50, 65&#039;&#039; $1649.50, 55&quot; $1249.50 Delivered (Excl. TAS, NT) @ Samsung Government Store"/><span class="overlay overlay-afflink" title="Affiliate Link - click for information" onclick="OzB.node_affinfo(this);return false;">Affiliate</span></a></div>    </div>
+    <h2 class="title" id="title919686" data-title="Samsung S85F 4K OLED TV: 83&quot; $3499.50, 65&#039;&#039; $1649.50, 55&quot; $1249.50 Delivered (Excl. TAS, NT) @ Samsung Government Store"><a href="/node/919686">Samsung S85F 4K OLED TV: 83&quot; <em class="dollar">$3499.50</em>, 65&#039;&#039; <em class="dollar">$1649.50</em>, 55&quot; <em class="dollar">$1249.50</em> Delivered (Excl. TAS, NT) @ Samsung Government Store</a></h2>    <div class="submitted"><strong><a href="/user/212981" title="View user profile." onclick="return OzB.user_tooltip(this)">Bippz01</a></strong> on 14/08/2025 - 21:24 <span class="via"><i class="fa fa-link"></i> <a href="/goto/919686" rel="noopener nofollow noreferrer" target="_blank">samsung.com</a></span></div>
     <div class="content">
-            <p>US Link Have been listening to Nick Loper’s Side Hustle podcast for years now, so I was surprised to find his latest eBook is currently free. The podcast has a tonne of value for those who want to &#8230;</p>    </div>
-    <div class="links" id="links519789"><ul class="links"><li><i class="fa fa-comment"></i> 259</li><li><span class="tag"><i class="fa fa-tag"></i> <a href="/cat/books-magazines">Books &amp; Magazines</a></span></li><li><span class="nodefreebie"><i class="fa fa-tag"></i> Freebie</span></li></ul></div>  </div>
+            <p>50% off on 2025 OLED S85F 4K Vision AI Smart TV. 7 years OS upgrade for free Could be also on the Education store. 55&#039; old TV recycle upto $100. 65&quot; old TV recycle upto $100 83&quot; old …</p>    </div>
+    <div class="links" id="links919686"><ul class="links"><li><i class="fa fa-comment"></i> 124</li><li><span class="tag"><i class="fa fa-tag"></i> <a href="/cat/electrical-electronics">Electrical &amp; Electronics</a></span></li><li><span class="nodeexpiry"><i class="fa fa-calendar"></i> 3 Sep <span class="marker">19 days left</span> </span></li></ul></div>  </div>
 </div>
-<div class="node node-ozbdeal node-teaser" id="node794258">
+<div class="node node-ozbdeal node-teaser" id="node919684">
   
   <div class="n-left">
-    <img src="https://files.ozbargain.com.au/g/38.jpg" alt="" width="38" height="38" class="gravatar"/>    <div class="n-vote n-deal inact" data-nid="794258"><span class="nvb voteup"><i class="fa fa-plus"></i><span>82</span></span><span class="nvb votedown"><i class="fa fa-minus"></i><span>0</span></span></div>  </div>
+    <img src="https://files.ozbargain.com.au/u/29/63329-38.jpg?h=d8b3664f" alt="" width="38" height="38" class="gravatar"/>    <div class="n-vote n-deal inact" data-nid="919684"><span class="nvb voteup"><i class="fa fa-plus"></i><span>32</span></span><span class="nvb votedown"><i class="fa fa-minus"></i><span>0</span></span></div>  </div>
 
   <div class="n-right">
     <div class="right">
-      <div class="foxshot-container"><a href="/goto/794258" rel="noopener nofollow" title="Go to https://www.propertyvalue.com.au/policebank" target="_blank"><img src="https://files.ozbargain.com.au/n/58/794258.jpg?h=2bb2b719" alt="Free Core Logic Property Report via Police Bank @ Property Value (Instant Download)"/></a></div>    </div>
-    <h2 class="title" id="title794258" data-title="Free Core Logic Property Report via Police Bank @ Property Value (Instant Download)"><span class="tagger longrunning">Repost</span> <a href="/node/794258">Free Core Logic Property Report via Police Bank @ Property Value (Instant Download)</a></h2>    <div class="submitted"><strong><a href="/user/326372" title="View user profile." onclick="return OzB.user_tooltip(this)">ozbargain2019</a></strong> on 17/08/2023 - 02:52 <span class="via"><i class="fa fa-link"></i> <a href="/goto/794258" rel="noopener nofollow noreferrer" target="_blank">propertyvalue.com.au</a></span></div>
+      <div class="foxshot-container"><a href="/goto/919684" rel="noopener nofollow" title="Go to https://files.ozbargain.com.au/upload/63329/123438/img_7041.jpeg" target="_blank"><img src="https://files.ozbargain.com.au/n/84/919684.jpg?h=bb88c6a1" alt="[NSW] IKEA Gorlig Oven $50 in-Store @ IKEA, Marsden Park"/></a></div>    </div>
+    <h2 class="title" id="title919684" data-title="[NSW] IKEA Gorlig Oven $50 in-Store @ IKEA, Marsden Park"><a href="/node/919684">[NSW] IKEA Gorlig Oven <em class="dollar">$50</em> in-Store @ IKEA, Marsden Park</a></h2>    <div class="submitted"><strong><a href="/user/63329" title="View user profile." onclick="return OzB.user_tooltip(this)">miku</a></strong> on 14/08/2025 - 21:16 <span class="via"><i class="fa fa-link"></i> <a href="/goto/919684" rel="noopener nofollow noreferrer" target="_blank">files.ozbargain.com.au</a></span></div>
     <div class="content">
-            <p>Free property report from Police Bank based on Core logic. You can download the report by putting any name/email/number. Enter address Submit form Scroll down to Get Free Report Click it Enter an …</p>    </div>
-    <div class="links" id="links794258"><ul class="links"><li><i class="fa fa-comment"></i> 79</li><li><span class="tag"><i class="fa fa-tag"></i> <a href="/cat/financial">Financial</a></span></li></ul></div>  </div>
+            <p>By the registers at the end of the warehouse section. No idea if any good but the original price seemed to have been $500+ as per a previous deal. Discontinued item so might be available on clearance …</p>    </div>
+    <div class="links" id="links919684"><ul class="links"><li><i class="fa fa-comment"></i> 34</li><li><span class="tag"><i class="fa fa-tag"></i> <a href="/cat/electrical-electronics">Electrical &amp; Electronics</a></span></li></ul></div>  </div>
 </div>
-<div class="node node-ozbdeal node-teaser" id="node919472">
+<div class="node node-ozbdeal node-teaser" id="node919669">
   
   <div class="n-left">
-    <img src="https://files.ozbargain.com.au/u/68/74368-38.jpg?h=acd59cb2" alt="" width="38" height="38" class="gravatar"/>    <div class="n-vote n-deal inact" data-nid="919472"><span class="nvb voteup"><i class="fa fa-plus"></i><span>92</span></span><span class="nvb votedown"><i class="fa fa-minus"></i><span>0</span></span></div>  </div>
+    <img src="https://files.ozbargain.com.au/g/38.jpg" alt="" width="38" height="38" class="gravatar"/>    <div class="n-vote n-deal inact" data-nid="919669"><span class="nvb voteup"><i class="fa fa-plus"></i><span>66</span></span><span class="nvb votedown"><i class="fa fa-minus"></i><span>0</span></span></div>  </div>
 
   <div class="n-right">
     <div class="right">
-      <div class="foxshot-container"><a href="/goto/919472" rel="noopener nofollow" title="Go to https://www.kmart.com.au/product/pack-of-3-terry-dish-cloths-natural-43522620/" target="_blank"><img src="https://files.ozbargain.com.au/n/72/919472.jpg?h=f673ab7d" alt="Pack of 3 Terry Dish Cloths $1 (Was $5) + Delivery ($0 C&amp;C/ in-Store/ OnePass/ $65 Order) @ Kmart"/></a></div>    </div>
-    <h2 class="title" id="title919472" data-title="Pack of 3 Terry Dish Cloths $1 (Was $5) + Delivery ($0 C&amp;C/ in-Store/ OnePass/ $65 Order) @ Kmart"><a href="/node/919472">Pack of 3 Terry Dish Cloths <em class="dollar">$1</em> (Was <em class="dollar">$5</em>) + Delivery (<em class="dollar">$0</em> C&amp;C/ in-Store/ OnePass/ <em class="dollar">$65</em> Order) @ Kmart</a></h2>    <div class="submitted"><strong><a href="/user/74368" title="View user profile." onclick="return OzB.user_tooltip(this)">ozvictor</a></strong> on 13/08/2025 - 22:25 <span class="via"><i class="fa fa-link"></i> <a href="/goto/919472" rel="noopener nofollow noreferrer" target="_blank">kmart.com.au</a></span></div>
+      <div class="foxshot-container"><a href="/goto/919669" rel="noopener nofollow" title="Go to https://www.ikea.com/au/en/p/symfonisk-speaker-lamp-base-with-wifi-black-smart-10487294/" target="_blank"><img src="https://files.ozbargain.com.au/n/69/919669.jpg?h=cb6ce651" alt="40% off Symfonisk Speaker Lamp $149 or with Lamp Shade $189 C&amp;C / in-Store @ IKEA (IKEA Family Membership Required)"/></a></div>    </div>
+    <h2 class="title" id="title919669" data-title="40% off Symfonisk Speaker Lamp $149 or with Lamp Shade $189 C&amp;C / in-Store @ IKEA (IKEA Family Membership Required)"><a href="/node/919669">40% off Symfonisk Speaker Lamp <em class="dollar">$149</em> or with Lamp Shade <em class="dollar">$189</em> C&amp;C / in-Store @ IKEA (IKEA Family Membership Required)</a></h2>    <div class="submitted"><strong><a href="/user/314513" title="View user profile." onclick="return OzB.user_tooltip(this)">mariahwerk</a></strong> on 14/08/2025 - 20:29 <span class="via"><i class="fa fa-link"></i> <a href="/goto/919669" rel="noopener nofollow noreferrer" target="_blank">ikea.com</a></span></div>
     <div class="content">
-            <p>Other colors Keep your kitchen spotless with this Pack of 3 Terry Dish Cloths - perfect for everyday cleaning. Product Details 3 pack Dimensions/Size: 25cm (L) x 25cm (W) Material: Cotton Colour: …</p>    </div>
-    <div class="links" id="links919472"><ul class="links"><li><i class="fa fa-comment"></i> 18</li><li><span class="tag"><i class="fa fa-tag"></i> <a href="/cat/home-garden">Home &amp; Garden</a></span></li></ul></div>  </div>
+            <p>Still have one in stock at Rhodes. A bit more bass than the bookshelf version. 180 degree sound and True Play. With lamp shade …</p>    </div>
+    <div class="links" id="links919669"><ul class="links"><li><i class="fa fa-comment"></i> 31</li><li><span class="tag"><i class="fa fa-tag"></i> <a href="/cat/electrical-electronics">Electrical &amp; Electronics</a></span></li><li><span class="nodeexpiry"><i class="fa fa-calendar"></i> 30 Sep <span class="marker">46 days left</span> </span></li></ul></div>  </div>
 </div>
-<div class="node node-ozbdeal node-teaser" id="node919468">
+<div class="node node-ozbdeal node-teaser" id="node919667">
   
   <div class="n-left">
-    <img src="https://files.ozbargain.com.au/u/97/111297-38.jpg?h=4b5acc78" alt="" width="38" height="38" class="gravatar"/>    <div class="n-vote n-deal inact" data-nid="919468"><span class="nvb voteup"><i class="fa fa-plus"></i><span>145</span></span><span class="nvb votedown"><i class="fa fa-minus"></i><span>0</span></span></div>  </div>
+    <img src="https://files.ozbargain.com.au/g/38.jpg" alt="" width="38" height="38" class="gravatar"/>    <div class="n-vote n-deal inact" data-nid="919667"><span class="nvb voteup"><i class="fa fa-plus"></i><span>65</span></span><span class="nvb votedown"><i class="fa fa-minus"></i><span>0</span></span></div>  </div>
 
   <div class="n-right">
     <div class="right">
-      <div class="foxshot-container"><a href="/goto/919468" rel="noopener nofollow" title="Go to https://www.kmart.com.au/product/front-sunshade-42898139/" target="_blank"><img src="https://files.ozbargain.com.au/n/68/919468.jpg?h=fe8e82c1" alt="Anko Car Front Windscreen Sunshade $1 + Delivery ($0 C&amp;C/ In-Store/ OnePass/ $65 Order) @ Kmart"/></a></div>    </div>
-    <h2 class="title" id="title919468" data-title="Anko Car Front Windscreen Sunshade $1 + Delivery ($0 C&amp;C/ In-Store/ OnePass/ $65 Order) @ Kmart"><a href="/node/919468">Anko Car Front Windscreen Sunshade <em class="dollar">$1</em> + Delivery (<em class="dollar">$0</em> C&amp;C/ In-Store/ OnePass/ <em class="dollar">$65</em> Order) @ Kmart</a></h2>    <div class="submitted"><strong><a href="/user/111297" title="View user profile." onclick="return OzB.user_tooltip(this)">mintea</a></strong> on 13/08/2025 - 21:38 <span class="via"><i class="fa fa-link"></i> <a href="/goto/919468" rel="noopener nofollow noreferrer" target="_blank">kmart.com.au</a></span></div>
+      <div class="foxshot-container"><a href="/goto/919667" rel="noopener nofollow" title="Go to https://umklogix.com.au/product/nvidia-geforce-rtx-5070-ti-palit-rtx-5070-ti-gamingpro-s-16gb-gpu/" target="_blank"><img src="https://files.ozbargain.com.au/n/67/919667.jpg?h=9a576958" alt="Palit GeForce RTX 5070 Ti GamingPro-S 16GB Graphics Card $1273 &amp; More + Delivery ($0 NSW C&amp;C) @ UMKLOGIX (Excl NT)"/></a></div>    </div>
+    <h2 class="title" id="title919667" data-title="Palit GeForce RTX 5070 Ti GamingPro-S 16GB Graphics Card $1273 &amp; More + Delivery ($0 NSW C&amp;C) @ UMKLOGIX (Excl NT)"><a href="/node/919667">Palit GeForce RTX 5070 Ti GamingPro-S 16GB Graphics Card <em class="dollar">$1273</em> &amp; More + Delivery (<em class="dollar">$0</em> NSW C&amp;C) @ UMKLOGIX (Excl NT)</a></h2>    <div class="submitted"><span class="role storerep" title="Posted by someone associated with the store">Associated</span><strong><a href="/user/505622" title="View user profile." onclick="return OzB.user_tooltip(this)">UMKLOGIX</a></strong> on 14/08/2025 - 20:20 <span class="via"><i class="fa fa-link"></i> <a href="/goto/919667" rel="noopener nofollow noreferrer" target="_blank">umklogix.com.au</a></span></div>
     <div class="content">
-            <p>Sunshade for the car. Dimensions/Size: 147cm (L) x 0.5cm (H) x 70cm (W) </p>    </div>
-    <div class="links" id="links919468"><ul class="links"><li><i class="fa fa-comment"></i> 20</li><li><span class="tag"><i class="fa fa-tag"></i> <a href="/cat/automotive">Automotive</a></span></li></ul></div>  </div>
+            <p>https://umklogix.com.au/product/nvidia-geforce-rtx-5070-ti-p… Good pricing on some other cards too. RX 9060 …</p>    </div>
+    <div class="links" id="links919667"><ul class="links"><li><i class="fa fa-comment"></i> 41</li><li><span class="tag"><i class="fa fa-tag"></i> <a href="/cat/computing">Computing</a></span></li><li><span class="nodeexpiry"><i class="fa fa-calendar"></i> 16 Aug <span class="marker">Tomorrow</span> </span></li></ul></div>  </div>
 </div>
-<div class="node node-ozbdeal node-teaser" id="node919465">
+<div class="node node-ozbdeal node-teaser" id="node919666">
   
   <div class="n-left">
-    <img src="https://files.ozbargain.com.au/u/74/328074-38.jpg?h=965c2355" alt="" width="38" height="38" class="gravatar"/>    <div class="n-vote n-deal inact" data-nid="919465"><span class="nvb voteup"><i class="fa fa-plus"></i><span>75</span></span><span class="nvb votedown"><i class="fa fa-minus"></i><span>0</span></span></div>  </div>
+    <img src="https://files.ozbargain.com.au/g/38.jpg" alt="" width="38" height="38" class="gravatar"/>    <div class="n-vote n-deal inact" data-nid="919666"><span class="nvb voteup"><i class="fa fa-plus"></i><span>26</span></span><span class="nvb votedown"><i class="fa fa-minus"></i><span>0</span></span></div>  </div>
 
   <div class="n-right">
     <div class="right">
-      <div class="foxshot-container"><a href="/goto/919465" rel="noopener nofollow" title="Go to https://www.amazon.com.au/dp/B00OY6UPGU" target="_blank"><img src="https://files.ozbargain.com.au/n/65/919465.jpg?h=d969ec39" alt="[Backorder] CLIF Energy Bar 12-Pack - Choc Chip $21 ($18.90 S&amp;S - Expired) + Delivery ($0 with Prime/ $59 Spend) @ Amazon AU"/><span class="overlay overlay-afflink" title="Affiliate Link - click for information" onclick="OzB.node_affinfo(this);return false;">Affiliate</span></a></div>    </div>
-    <h2 class="title" id="title919465" data-title="[Backorder] CLIF Energy Bar 12-Pack - Choc Chip $21 ($18.90 S&amp;S - Expired) + Delivery ($0 with Prime/ $59 Spend) @ Amazon AU"><a href="/node/919465">[Backorder] CLIF Energy Bar 12-Pack - Choc Chip <em class="dollar">$21</em> (<em class="dollar">$18.90</em> S&amp;S - Expired) + Delivery (<em class="dollar">$0</em> with Prime/ <em class="dollar">$59</em> Spend) @ Amazon AU</a></h2>    <div class="submitted"><strong><a href="/user/328074" title="View user profile." onclick="return OzB.user_tooltip(this)">Frunk</a></strong> on 13/08/2025 - 21:04 <span class="via"><i class="fa fa-link"></i> <a href="/goto/919465" rel="noopener nofollow noreferrer" target="_blank">amazon.com.au</a></span></div>
+      <div class="foxshot-container"><a href="/goto/919666" rel="noopener nofollow" title="Go to https://www.moomoo.com/au/support/topic6_428?_ftsdk=1754439396140745" target="_blank"><img src="https://files.ozbargain.com.au/n/66/919666.jpg?h=7e1d8f4f" alt="Sign up, Deposit $500 &amp; Get 5 Free Fractional Shares, Deposit $2000 for 15 Shares, Deposit $8000 for 30 Shares @ moomoo"/></a></div>    </div>
+    <h2 class="title" id="title919666" data-title="Sign up, Deposit $500 &amp; Get 5 Free Fractional Shares, Deposit $2000 for 15 Shares, Deposit $8000 for 30 Shares @ moomoo"><a href="/node/919666">Sign up, Deposit <em class="dollar">$500</em> &amp; Get 5 Free Fractional Shares, Deposit <em class="dollar">$2000</em> for 15 Shares, Deposit <em class="dollar">$8000</em> for 30 Shares @ moomoo</a></h2>    <div class="submitted"><strong><a href="/user/335145" title="View user profile." onclick="return OzB.user_tooltip(this)">Silentninja7</a></strong> on 14/08/2025 - 20:07 <span class="via"><i class="fa fa-link"></i> <a href="/goto/919666" rel="noopener nofollow noreferrer" target="_blank">moomoo.com</a></span></div>
     <div class="content">
-            <p>I daily-drive CLIF bars and this is the cheapest they&#039;ve been in a few weeks. Other flavours not discounted at time of posting. Mod: Now on backorder, no subscribe &amp; save discount is …</p>    </div>
-    <div class="links" id="links919465"><ul class="links"><li><i class="fa fa-comment"></i> 44</li><li><span class="tag"><i class="fa fa-tag"></i> <a href="/cat/groceries">Groceries</a></span></li></ul></div>  </div>
+            <p>Deposit Reward: Free Shares Draw Reward Rules: A$500, will receive 5 chances to draw 5 free shares. A$2,000, will receive an additional 10 chances to draw 10 free shares (15 in total). A$8,000, …</p>    </div>
+    <div class="links" id="links919666"><ul class="links"><li><i class="fa fa-comment"></i> 15</li><li><span class="tag"><i class="fa fa-tag"></i> <a href="/cat/financial">Financial</a></span></li><li><span class="nodeexpiry"><i class="fa fa-calendar"></i> 31 Aug <span class="marker">16 days left</span> </span></li></ul></div>  </div>
 </div>
-<div class="node node-ozbdeal node-teaser" id="node919449">
+<div class="node node-ozbdeal node-teaser" id="node919660">
   
   <div class="n-left">
-    <img src="https://files.ozbargain.com.au/u/12/412312-38.jpg?h=00db64ce" alt="" width="38" height="38" class="gravatar"/>    <div class="n-vote n-deal inact" data-nid="919449"><span class="nvb voteup"><i class="fa fa-plus"></i><span>105</span></span><span class="nvb votedown"><i class="fa fa-minus"></i><span>0</span></span></div>  </div>
+    <img src="https://files.ozbargain.com.au/g/38.jpg" alt="" width="38" height="38" class="gravatar"/>    <div class="n-vote n-deal inact" data-nid="919660"><span class="nvb voteup"><i class="fa fa-plus"></i><span>277</span></span><span class="nvb votedown"><i class="fa fa-minus"></i><span>0</span></span></div>  </div>
 
   <div class="n-right">
     <div class="right">
-      <div class="foxshot-container"><a href="/goto/919449" rel="noopener nofollow" title="Go to https://www.kmart.com.au/product/outdoor-rgb-lantern-speaker-beige-43499892/" target="_blank"><img src="https://files.ozbargain.com.au/n/49/919449.jpg?h=6fb0c806" alt="Outdoor RGB Lantern Speaker $12.50, Wired Earphones $0.75, Magnetic Phone Holder $4, BT Gaming Controller $9 + More @ Kmart"/></a></div>    </div>
-    <h2 class="title" id="title919449" data-title="Outdoor RGB Lantern Speaker $12.50, Wired Earphones $0.75, Magnetic Phone Holder $4, BT Gaming Controller $9 + More @ Kmart"><a href="/node/919449">Outdoor RGB Lantern Speaker <em class="dollar">$12.50</em>, Wired Earphones <em class="dollar">$0.75</em>, Magnetic Phone Holder <em class="dollar">$4</em>, BT Gaming Controller <em class="dollar">$9</em> + More @ Kmart</a></h2>    <div class="submitted"><strong><a href="/user/412312" title="View user profile." onclick="return OzB.user_tooltip(this)">shxhshzhz</a></strong> on 13/08/2025 - 18:55 <span class="via"><i class="fa fa-link"></i> <a href="/goto/919449" rel="noopener nofollow noreferrer" target="_blank">kmart.com.au</a></span></div>
+      <div class="foxshot-container"><a href="/goto/919660" rel="noopener nofollow" title="Go to http://ubereats.com/" target="_blank"><img src="https://files.ozbargain.com.au/n/60/919660.jpg?h=e2a8129d" alt="[Afterpay] Pay with Afterpay for 50% off (Min $50 Spend, Max $30 off) @ Uber Eats"/></a></div>    </div>
+    <h2 class="title" id="title919660" data-title="[Afterpay] Pay with Afterpay for 50% off (Min $50 Spend, Max $30 off) @ Uber Eats"><a href="/node/919660">[Afterpay] Pay with Afterpay for 50% off (Min <em class="dollar">$50</em> Spend, Max <em class="dollar">$30</em> off) @ Uber Eats</a></h2>    <div class="submitted"><strong><a href="/user/403313" title="View user profile." onclick="return OzB.user_tooltip(this)">AClubPenguinUser</a></strong> on 14/08/2025 - 19:09 <span class="via"><i class="fa fa-link"></i> <a href="/goto/919660" rel="noopener nofollow noreferrer" target="_blank">ubereats.com</a></span></div>
     <div class="content">
-            <p>Heavily discounted clearance technology items. In-store &amp; online. Free delivery with OnePass or $65 order. Free pickup. Very cheap earphones for $0.75. Item RRP Price Outdoor RGB …</p>    </div>
-    <div class="links" id="links919449"><ul class="links"><li><i class="fa fa-comment"></i> 24</li><li><span class="tag"><i class="fa fa-tag"></i> <a href="/cat/electrical-electronics">Electrical &amp; Electronics</a></span></li></ul></div>  </div>
+      <div class="couponcode" title="Coupon code - click to copy to clipboard"><i class="fa fa-shopping-cart"></i><strong>AFTERPAY50AU</strong></div>      <p>50% off your order $50+ (max $30 off) when you check out with Afterpay. Code: AFTERPAY50AU Credit to Joe-welly on CC. </p>    </div>
+    <div class="links" id="links919660"><ul class="links"><li><i class="fa fa-comment"></i> 88</li><li><span class="tag"><i class="fa fa-tag"></i> <a href="/cat/dining-takeaway">Dining &amp; Takeaway</a></span></li><li><span class="nodeexpiry"><i class="fa fa-calendar"></i> 17 Aug <span class="marker">2 days left</span> </span></li></ul></div>  </div>
 </div>
-<div id="ozbads-1" class="ads adslistingz" style="height:90px" data-fuse="21737090302"></div><ul class="pager"><li class="pager-current shade3">1</li><li><a href="/?page=1" class="pager-next active" title="Go to page 2">2</a></li><li><a href="/?page=2" class="pager-next active" title="Go to page 3">3</a></li><li><a href="/?page=3" class="pager-next active" title="Go to page 4">4</a></li><li><a href="/?page=4" class="pager-next active" title="Go to page 5">5</a></li><li><a href="/?page=5" class="pager-next active" title="Go to page 6">6</a></li><li><a href="/?page=6" class="pager-next active" title="Go to page 7">7</a></li><li class="pager-ellipsis">…</li><li><a href="/?page=1" class="pager-next active" title="Go to next page"><i class="fa fa-chevron-right"></i></a></li></ul><h2 class="section">Deals Expiring Soon</h2><div class="node node-ozbdeal node-teaser" id="node916270">
+<div id="ozbads-1" class="ads adslistingz" style="height:90px" data-fuse="21737090302"></div><ul class="pager"><li class="pager-current shade3">1</li><li><a href="/?page=1" class="pager-next active" title="Go to page 2">2</a></li><li><a href="/?page=2" class="pager-next active" title="Go to page 3">3</a></li><li><a href="/?page=3" class="pager-next active" title="Go to page 4">4</a></li><li><a href="/?page=4" class="pager-next active" title="Go to page 5">5</a></li><li><a href="/?page=5" class="pager-next active" title="Go to page 6">6</a></li><li><a href="/?page=6" class="pager-next active" title="Go to page 7">7</a></li><li class="pager-ellipsis">…</li><li><a href="/?page=1" class="pager-next active" title="Go to next page"><i class="fa fa-chevron-right"></i></a></li></ul><h2 class="section">Deals Expiring Soon</h2><div class="node node-ozbdeal node-teaser" id="node919027">
   
   <div class="n-left">
-    <img src="https://files.ozbargain.com.au/g/38.jpg" alt="" width="38" height="38" class="gravatar"/>    <div class="n-vote n-deal inact" data-nid="916270"><span class="nvb voteup"><i class="fa fa-plus"></i><span>291</span></span><span class="nvb votedown"><i class="fa fa-minus"></i><span>0</span></span></div>  </div>
+    <img src="https://files.ozbargain.com.au/u/14/23214-38.jpg?h=2aaa9077" alt="" width="38" height="38" class="gravatar"/>    <div class="n-vote n-deal inact" data-nid="919027"><span class="nvb voteup"><i class="fa fa-plus"></i><span>139</span></span><span class="nvb votedown"><i class="fa fa-minus"></i><span>0</span></span></div>  </div>
 
   <div class="n-right">
     <div class="right">
-      <div class="foxshot-container"><a href="/goto/916270" rel="noopener nofollow" title="Go to https://www.macquarie.com.au/everyday-banking/savings-account.html" target="_blank"><img src="https://files.ozbargain.com.au/n/70/916270.jpg?h=840ec2b1" alt="Macquarie Bank Savings Account: 4.85% p.a Interest First 4 Months on Balance up to $250,000 (Expired: 4.50% pa on Bal up to $1M)"/></a></div>    </div>
-    <h2 class="title" id="title916270" data-title="Macquarie Bank Savings Account: 4.85% p.a Interest First 4 Months on Balance up to $250,000 (Expired: 4.50% pa on Bal up to $1M)"><a href="/node/916270">Macquarie Bank Savings Account: 4.85% p.a Interest First 4 Months on Balance up to <em class="dollar">$250,000</em> (Expired: 4.50% pa on Bal up to <em class="dollar">$1</em>M)</a></h2>    <div class="submitted"><strong><a href="/user/46636" title="View user profile." onclick="return OzB.user_tooltip(this)">BuyNow Think Later</a></strong> on 19/07/2025 - 22:37 <span class="via"><i class="fa fa-link"></i> <a href="/goto/916270" rel="noopener nofollow noreferrer" target="_blank">macquarie.com.au</a></span></div>
+      <div class="foxshot-container"><a href="/goto/919027" rel="noopener nofollow" title="Go to http://seats.aero/" target="_blank"><img src="https://files.ozbargain.com.au/n/27/919027.jpg?h=08ad5c82" alt="20% off Annual &amp; Monthly Subscriptions (from US$79.99 /yr) @ Seats.aero (Qantas &amp; Velocity Reward Seat Search Engine)"/></a></div>    </div>
+    <h2 class="title" id="title919027" data-title="20% off Annual &amp; Monthly Subscriptions (from US$79.99 /yr) @ Seats.aero (Qantas &amp; Velocity Reward Seat Search Engine)"><a href="/node/919027">20% off Annual &amp; Monthly Subscriptions (from US<em class="dollar">$79.99</em> /yr) @ Seats.aero (Qantas &amp; Velocity Reward Seat Search Engine)</a></h2>    <div class="submitted"><strong><a href="/user/23214" title="View user profile." onclick="return OzB.user_tooltip(this)">tobs90</a></strong> on 10/08/2025 - 20:04 <span class="via"><i class="fa fa-link"></i> <a href="/goto/919027" rel="noopener nofollow noreferrer" target="_blank">seats.aero</a></span></div>
     <div class="content">
-            <p>Credit to those who pointed out Macquarie is better than AMP in my previous post. 2.25% p.a. on balance above $1M. https://www.macquarie.com.au/help/personal/home-loans/unders… 12-Aug-2025 On 12 …</p>    </div>
-    <div class="links" id="links916270"><ul class="links"><li><i class="fa fa-comment"></i> 214</li><li><span class="tag"><i class="fa fa-tag"></i> <a href="/cat/financial">Financial</a></span></li><li><span class="nodeexpiry"><i class="fa fa-calendar"></i> 14 Aug <span class="marker">Today</span> </span></li></ul></div>  </div>
+      <div class="couponcode" title="Coupon code - click to copy to clipboard"><i class="fa fa-shopping-cart"></i><strong>UPGRADED</strong></div>      <p>Active Promo Code: UPGRADED • Discount: 20% off the annual Pro subscription. • Price After Discount: $79.99 USD/year (originally $99.99 USD). • Expiration Date: August 15, …</p>    </div>
+    <div class="links" id="links919027"><ul class="links"><li><i class="fa fa-comment"></i> 61</li><li><span class="tag"><i class="fa fa-tag"></i> <a href="/cat/travel">Travel</a></span></li><li><span class="nodeexpiry"><i class="fa fa-calendar"></i> 15 Aug <span class="marker">Today</span> </span></li></ul></div>  </div>
 </div>
-<div class="node node-ozbdeal node-teaser" id="node917831">
+<div class="node node-ozbdeal node-teaser" id="node915675">
   
   <div class="n-left">
-    <img src="https://files.ozbargain.com.au/g/38.jpg" alt="" width="38" height="38" class="gravatar"/>    <div class="n-vote n-deal inact" data-nid="917831"><span class="nvb voteup"><i class="fa fa-plus"></i><span>256</span></span><span class="nvb votedown"><i class="fa fa-minus"></i><span>0</span></span></div>  </div>
+    <img src="https://files.ozbargain.com.au/g/38.jpg" alt="" width="38" height="38" class="gravatar"/>    <div class="n-vote n-deal inact" data-nid="915675"><span class="nvb voteup"><i class="fa fa-plus"></i><span>105</span></span><span class="nvb votedown"><i class="fa fa-minus"></i><span>0</span></span></div>  </div>
 
   <div class="n-right">
     <div class="right">
-      <div class="foxshot-container"><a href="/goto/917831" rel="noopener nofollow" title="Go to https://www.macquarie.com.au/everyday-banking/savings-account.html" target="_blank"><img src="https://files.ozbargain.com.au/n/31/917831.jpg?h=d6538ef7" alt="Macquarie Bank Savings Account: 4.50% p.a. Interest on Balance up to $2,000,000 (Was up to $1,000,000)"/></a></div>    </div>
-    <h2 class="title" id="title917831" data-title="Macquarie Bank Savings Account: 4.50% p.a. Interest on Balance up to $2,000,000 (Was up to $1,000,000)"><a href="/node/917831">Macquarie Bank Savings Account: 4.50% p.a. Interest on Balance up to <em class="dollar">$2,000,000</em> (Was up to <em class="dollar">$1,000,000</em>)</a></h2>    <div class="submitted"><strong><a href="/user/299074" title="View user profile." onclick="return OzB.user_tooltip(this)">djoz</a></strong> on 01/08/2025 - 11:53 <span class="via"><i class="fa fa-link"></i> <a href="/goto/917831" rel="noopener nofollow noreferrer" target="_blank">macquarie.com.au</a></span></div>
+      <div class="foxshot-container"><a href="/goto/915675" rel="noopener nofollow" title="Go to https://voltxenergy.com.au/pages/australian-federal-home-battery-rebate-offer" target="_blank"><img src="https://files.ozbargain.com.au/n/75/915675.jpg?h=72c77dee" alt="[NSW, SA, QLD] 30kWh VoltX Neovolt Battery &amp; 5kW Inverter $5920 Installed (Metro Areas) @ VoltX"/></a></div>    </div>
+    <h2 class="title" id="title915675" data-title="[NSW, SA, QLD] 30kWh VoltX Neovolt Battery &amp; 5kW Inverter $5920 Installed (Metro Areas) @ VoltX"><a href="/node/915675">[NSW, SA, QLD] 30kWh VoltX Neovolt Battery &amp; 5kW Inverter <em class="dollar">$5920</em> Installed (Metro Areas) @ VoltX</a></h2>    <div class="submitted"><strong><a href="/user/43763" title="View user profile." onclick="return OzB.user_tooltip(this)">31mop</a></strong> on 15/07/2025 - 13:57 <span class="via"><i class="fa fa-link"></i> <a href="/goto/915675" rel="noopener nofollow noreferrer" target="_blank">voltxenergy.com.au</a></span></div>
     <div class="content">
-            <p>Starting 01 August 2025, you can now earn interest at 4.50% on Macquarie Savings Account up to $2M (was up to $1M). Duplicate offer removed from deal title &#8212; Mod. Also, note the welcome rate …</p>    </div>
-    <div class="links" id="links917831"><ul class="links"><li><i class="fa fa-comment"></i> 187</li><li><span class="tag"><i class="fa fa-tag"></i> <a href="/cat/financial">Financial</a></span></li><li><span class="nodeexpiry"><i class="fa fa-calendar"></i> 14 Aug <span class="marker">Today</span> </span></li></ul></div>  </div>
-</div>
-<div class="node node-ozbdeal node-teaser" id="node917785">
-  
-  <div class="n-left">
-    <img src="https://files.ozbargain.com.au/g/38.jpg" alt="" width="38" height="38" class="gravatar"/>    <div class="n-vote n-deal inact" data-nid="917785"><span class="nvb voteup"><i class="fa fa-plus"></i><span>217</span></span><span class="nvb votedown"><i class="fa fa-minus"></i><span>0</span></span></div>  </div>
-
-  <div class="n-right">
-    <div class="right">
-      <div class="foxshot-container"><a href="/goto/917785" rel="noopener nofollow" title="Go to https://store.epicgames.com/en-US/free-games" target="_blank"><img src="https://files.ozbargain.com.au/n/85/917785.jpg?h=0755c39f" alt="[PC, Epic] Free - 112 Operator, Road Redemption @ Epic Games"/></a></div>    </div>
-    <h2 class="title" id="title917785" data-title="[PC, Epic] Free - 112 Operator, Road Redemption @ Epic Games"><a href="/node/917785">[PC, Epic] Free - 112 Operator, Road Redemption @ Epic Games</a></h2>    <div class="submitted"><strong><a href="/user/102635" title="View user profile." onclick="return OzB.user_tooltip(this)">Hiphopopotamus</a></strong> on 01/08/2025 - 01:01 <span class="via"><i class="fa fa-link"></i> <a href="/goto/917785" rel="noopener nofollow noreferrer" target="_blank">store.epicgames.com</a></span></div>
-    <div class="content">
-            <p>112 Operator Manage emergency services in any city in the world! Take calls and dispatch rescue forces. Handle difficult situations, now depending on the weather, and traffic. Help the citizens …</p>    </div>
-    <div class="links" id="links917785"><ul class="links"><li><i class="fa fa-comment"></i> 11</li><li><span class="tag"><i class="fa fa-tag"></i> <a href="/cat/gaming">Gaming</a></span></li><li><span class="nodefreebie"><i class="fa fa-tag"></i> Freebie</span></li><li><span class="nodeexpiry"><i class="fa fa-calendar"></i> 15 Aug 1:00am <span class="marker">Tomorrow</span> </span></li></ul></div>  </div>
-</div>
-<div class="node node-ozbdeal node-teaser" id="node918718">
-  
-  <div class="n-left">
-    <img src="https://files.ozbargain.com.au/g/38.jpg" alt="" width="38" height="38" class="gravatar"/>    <div class="n-vote n-deal inact" data-nid="918718"><span class="nvb voteup"><i class="fa fa-plus"></i><span>185</span></span><span class="nvb votedown"><i class="fa fa-minus"></i><span>0</span></span></div>  </div>
-
-  <div class="n-right">
-    <div class="right">
-      <div class="foxshot-container"><a href="/goto/918718" rel="noopener nofollow" title="Go to http://store.epicgames.com/p/112-operator-android-979286" target="_blank"><img src="https://files.ozbargain.com.au/n/18/918718.jpg?h=98177ee4" alt="[Android, Epic] Free - 112 Operator @ Epic Games"/></a></div>    </div>
-    <h2 class="title" id="title918718" data-title="[Android, Epic] Free - 112 Operator @ Epic Games"><a href="/node/918718">[Android, Epic] Free - 112 Operator @ Epic Games</a></h2>    <div class="submitted"><strong><a href="/user/102635" title="View user profile." onclick="return OzB.user_tooltip(this)">Hiphopopotamus</a></strong> on 08/08/2025 - 01:00 <span class="via"><i class="fa fa-link"></i> <a href="/goto/918718" rel="noopener nofollow noreferrer" target="_blank">store.epicgames.com</a></span></div>
-    <div class="content">
-            <p>Manage emergency services in any city in the world! Take calls and dispatch rescue forces. Handle difficult situations, now depending on the weather, and traffic. Help the citizens through cataclysms …</p>    </div>
-    <div class="links" id="links918718"><ul class="links"><li><i class="fa fa-comment"></i> 1</li><li><span class="tag"><i class="fa fa-tag"></i> <a href="/cat/gaming">Gaming</a></span></li><li><span class="nodefreebie"><i class="fa fa-tag"></i> Freebie</span></li><li><span class="nodeexpiry"><i class="fa fa-calendar"></i> 15 Aug 1:00am <span class="marker">Tomorrow</span> </span></li></ul></div>  </div>
-</div>
-<div class="node node-ozbdeal node-teaser" id="node918733">
-  
-  <div class="n-left">
-    <img src="https://files.ozbargain.com.au/u/05/206905-38.jpg?h=6f866044" alt="" width="38" height="38" class="gravatar"/>    <div class="n-vote n-deal inact" data-nid="918733"><span class="nvb voteup"><i class="fa fa-plus"></i><span>86</span></span><span class="nvb votedown"><i class="fa fa-minus"></i><span>0</span></span></div>  </div>
-
-  <div class="n-right">
-    <div class="right">
-      <div class="foxshot-container"><a href="/goto/918733" rel="noopener nofollow" title="Go to https://store.steampowered.com/app/2060130/Return_to_Monkey_Island/" target="_blank"><img src="https://files.ozbargain.com.au/n/33/918733.jpg?h=40ba26dd" alt="[PC, Steam] Return to Monkey Island $10.95 @ Steam"/></a></div>    </div>
-    <h2 class="title" id="title918733" data-title="[PC, Steam] Return to Monkey Island $10.95 @ Steam"><a href="/node/918733">[PC, Steam] Return to Monkey Island <em class="dollar">$10.95</em> @ Steam</a></h2>    <div class="submitted"><strong><a href="/user/206905" title="View user profile." onclick="return OzB.user_tooltip(this)">sharmanat0r</a></strong> on 08/08/2025 - 08:25 <span class="via"><i class="fa fa-link"></i> <a href="/goto/918733" rel="noopener nofollow noreferrer" target="_blank">store.steampowered.com</a></span></div>
-    <div class="content">
-            <p>ATL for the latest in this brilliant series! Been waiting for it to drop below $10 but this is close enough :) One of the first game I ever played on the Amiga 500. Soon you&#039;ll be wearing my …</p>    </div>
-    <div class="links" id="links918733"><ul class="links"><li><i class="fa fa-comment"></i> 29</li><li><span class="tag"><i class="fa fa-tag"></i> <a href="/cat/gaming">Gaming</a></span></li><li><span class="nodeexpiry"><i class="fa fa-calendar"></i> 15 Aug 3:00am <span class="marker">Tomorrow</span> </span></li></ul></div>  </div>
+            <p>At the risk of being flamed, I&#039;m trying to work out if I should go ahead with this deal or not. I am aware of VoltX products and they seem reasonable quality. I can&#039;t really find too …</p>    </div>
+    <div class="links" id="links915675"><ul class="links"><li><i class="fa fa-comment"></i> 816</li><li><span class="tag"><i class="fa fa-tag"></i> <a href="/cat/electrical-electronics">Electrical &amp; Electronics</a></span></li><li><span class="nodeexpiry"><i class="fa fa-calendar"></i> 15 Aug 5:00pm <span class="marker">Today</span> </span></li></ul></div>  </div>
 </div>
 <h2 class="section" id="fpcomps">Highlighted Competitions <button class="btn" onclick="OzB.toggleFPComps(this);">Hide</button></h2><div>
 <div class="node node-competition node-teaser" id="node919384">
     <div class="n-left">
-    <img src="https://files.ozbargain.com.au/g/38.jpg" alt="" width="38" height="38" class="gravatar"/>    <div class="n-vote n-comp inact" data-nid="919384"><span class="nvb voteup"><i class="fa fa-plus"></i><span>22</span></span></div>  </div>
+    <img src="https://files.ozbargain.com.au/g/38.jpg" alt="" width="38" height="38" class="gravatar"/>    <div class="n-vote n-comp inact" data-nid="919384"><span class="nvb voteup"><i class="fa fa-plus"></i><span>35</span></span></div>  </div>
   <div class="n-right">
         <div class="right">
     <div class="foxshot-container"><a href="/goto/919384" rel="noopener nofollow" title="Go to https://gleam.io/oCigs/gadgetguy-roborock-qrevoedgec-robotic-vacuum-giveaway" target="_blank"><img src="https://files.ozbargain.com.au/n/84/919384.jpg?h=8cfc6adb" alt="Win a Roborock Qrevo EdgeC Robotic Vacuum Vaued at $2,199 from Gadget Guy + Roborock"/></a></div>    <div class="comp-actions"><a href="#" class="comp-seen btn icon" title="Mark as seen" onclick="return OzB.competition.markAsSeen(this, 919384, 0, 1, 0);"><i class="fa fa-eye-slash" title="Mark as seen"></i></a><a href="#" class="comp-enter btn icon" title="Mark as Entered" onclick="return OzB.competition.recordEntry(this, 919384, 0, 1, 0, 0);"><i class="fa fa-check-square-o" title="Mark as Entered"></i></a></div>    </div>
@@ -444,40 +405,11 @@ OzB.dismissNewsletter(1);
             <li><span title="Entry methods"><i class="fa fa-edit fa-fw"></i>Gleam</span></li>
             <li><span title="Entry requirements"><i class="fa fa-check-square-o fa-fw"></i>Like/Follow/Comment/Share</span></li>
     </ul>
-    <div class="links"><ul class="links"><li><i class="fa fa-comment"></i> 1</li><li><i class="fa fa-edit" title="Number of entries"></i> 100</li><li><i class="fa fa-trophy" title="Number of winners"></i> 0</li><li><span class="tag"><i class="fa fa-tag"></i> <a href="/competition/draw">Lucky Draw</a></span></li><li><span class="nodeexpiry"><i class="fa fa-calendar"></i> 10 Sep 11:00am <span class="marker">27 days left</span> </span></li></ul></div>  </div>
-</div>
-<div class="node node-competition node-teaser" id="node919286">
-    <div class="n-left">
-    <img src="https://files.ozbargain.com.au/u/93/445893-38.jpg?h=e1c7d26c" alt="" width="38" height="38" class="gravatar"/>    <div class="n-vote n-comp inact" data-nid="919286"><span class="nvb voteup"><i class="fa fa-plus"></i><span>11</span></span></div>  </div>
-  <div class="n-right">
-        <div class="right">
-    <div class="foxshot-container"><a href="/goto/919286" rel="noopener nofollow" title="Go to https://skinkandy.com/?srsltid=AfmBOoozdJCVcqLLq71xz7OZX8RB3jvBQdRzzkfsc4gGmFdSEFg8z9AJ" target="_blank"><img src="https://files.ozbargain.com.au/n/86/919286.jpg?h=eea6fdf2" alt="Win a Pair of Airpod Max Headphones from Skin Kandy"/></a></div>    <div class="comp-actions"><a href="#" class="comp-seen btn icon" title="Mark as seen" onclick="return OzB.competition.markAsSeen(this, 919286, 0, 1, 0);"><i class="fa fa-eye-slash" title="Mark as seen"></i></a><a href="#" class="comp-enter btn icon" title="Mark as Entered" onclick="return OzB.competition.recordEntry(this, 919286, 0, 1, 0, 0);"><i class="fa fa-check-square-o" title="Mark as Entered"></i></a></div>    </div>
-        <h2 class="title" id="title919286" data-title="Win a Pair of Airpod Max Headphones from Skin Kandy"><a href="/node/919286">Win a Pair of Airpod Max Headphones from Skin Kandy</a></h2>    <div class="submitted"><strong><a href="/user/445893" title="View user profile." onclick="return OzB.user_tooltip(this)">TruePursuit</a></strong> on 12/08/2025 - 20:20 <span class="via"><i class="fa fa-link"></i> <a href="/goto/919286" rel="noopener nofollow noreferrer" target="_blank">skinkandy.com</a></span></div>
-<ul class="competition-list-meta">
-            <li><span title="Open to"><i class="fa fa-map-marker fa-fw"></i>Australia-wide</span></li>
-            <li><span title="Entry methods"><i class="fa fa-edit fa-fw"></i>Website, Email</span></li>
-            <li><span title="Entry requirements"><i class="fa fa-check-square-o fa-fw"></i>Email Subscription</span></li>
-    </ul>
-    <div class="links"><ul class="links"><li><i class="fa fa-comment"></i> 2</li><li><i class="fa fa-edit" title="Number of entries"></i> 64</li><li><i class="fa fa-trophy" title="Number of winners"></i> 0</li><li><span class="tag"><i class="fa fa-tag"></i> <a href="/competition/draw">Lucky Draw</a></span></li><li><span class="nodeexpiry"><i class="fa fa-calendar"></i> 3 Sep <span class="marker">20 days left</span> </span></li></ul></div>  </div>
-</div>
-<div class="node node-competition node-teaser" id="node919211">
-    <div class="n-left">
-    <img src="https://files.ozbargain.com.au/g/38.jpg" alt="" width="38" height="38" class="gravatar"/>    <div class="n-vote n-comp inact" data-nid="919211"><span class="nvb voteup"><i class="fa fa-plus"></i><span>16</span></span></div>  </div>
-  <div class="n-right">
-        <div class="right">
-    <div class="foxshot-container"><a href="/goto/919211" rel="noopener nofollow" title="Go to https://tradablebits.com/tb_app/530086" target="_blank"><img src="https://files.ozbargain.com.au/n/11/919211.jpg?h=b1e65a55" alt="Win an iPhone 16 128GB Valued at $1,399 from NBL"/></a></div>    <div class="comp-actions"><a href="#" class="comp-seen btn icon" title="Mark as seen" onclick="return OzB.competition.markAsSeen(this, 919211, 0, 1, 0);"><i class="fa fa-eye-slash" title="Mark as seen"></i></a><a href="#" class="comp-enter btn icon" title="Mark as Entered" onclick="return OzB.competition.recordEntry(this, 919211, 0, 1, 0, 0);"><i class="fa fa-check-square-o" title="Mark as Entered"></i></a></div>    </div>
-        <h2 class="title" id="title919211" data-title="Win an iPhone 16 128GB Valued at $1,399 from NBL"><a href="/node/919211">Win an iPhone 16 128GB Valued at <em class="dollar">$1,399</em> from NBL</a></h2>    <div class="submitted"><strong><a href="/user/75943" title="View user profile." onclick="return OzB.user_tooltip(this)">shaneb</a></strong> on 12/08/2025 - 12:26 <span class="via"><i class="fa fa-link"></i> <a href="/goto/919211" rel="noopener nofollow noreferrer" target="_blank">tradablebits.com</a></span></div>
-<ul class="competition-list-meta">
-        <li><span title="Total prize pool"><i class="fa fa-fw fa-trophy"></i>Prize pool $1,399.00</span></li>
-            <li><span title="Open to"><i class="fa fa-map-marker fa-fw"></i>Australia-wide</span></li>
-            <li><span title="Entry methods"><i class="fa fa-edit fa-fw"></i>Mobile App, Website</span></li>
-            <li><span title="Entry requirements"><i class="fa fa-check-square-o fa-fw"></i>Email Subscription</span></li>
-    </ul>
-    <div class="links"><ul class="links"><li><i class="fa fa-comment"></i> 0</li><li><i class="fa fa-edit" title="Number of entries"></i> 74</li><li><i class="fa fa-trophy" title="Number of winners"></i> 0</li><li><span class="tag"><i class="fa fa-tag"></i> <a href="/competition/draw">Lucky Draw</a></span></li><li><span class="nodeexpiry"><i class="fa fa-calendar"></i> 1 Sep 11:59pm <span class="marker">18 days left</span> </span></li></ul></div>  </div>
+    <div class="links"><ul class="links"><li><i class="fa fa-comment"></i> 2</li><li><i class="fa fa-edit" title="Number of entries"></i> 134</li><li><i class="fa fa-trophy" title="Number of winners"></i> 0</li><li><span class="tag"><i class="fa fa-tag"></i> <a href="/competition/draw">Lucky Draw</a></span></li><li><span class="nodeexpiry"><i class="fa fa-calendar"></i> 10 Sep 11:00am <span class="marker">26 days left</span> </span></li></ul></div>  </div>
 </div>
 <div class="node node-competition node-teaser" id="node919459">
     <div class="n-left">
-    <img src="https://files.ozbargain.com.au/g/38.jpg" alt="" width="38" height="38" class="gravatar"/>    <div class="n-vote n-comp inact" data-nid="919459"><span class="nvb voteup"><i class="fa fa-plus"></i><span>10</span></span></div>  </div>
+    <img src="https://files.ozbargain.com.au/g/38.jpg" alt="" width="38" height="38" class="gravatar"/>    <div class="n-vote n-comp inact" data-nid="919459"><span class="nvb voteup"><i class="fa fa-plus"></i><span>15</span></span></div>  </div>
   <div class="n-right">
         <div class="right">
     <div class="foxshot-container"><a href="/goto/919459" rel="noopener nofollow" title="Go to https://www.barbequesgalore.com.au/win-dad-a-legendary-fathers-day-gift/" target="_blank"><img src="https://files.ozbargain.com.au/n/59/919459.jpg?h=f5606964" alt="Win a Beefmaster Griddle 4 Burner Flat Top BBQ on Cart + Bonus BBQ Cover Valued at $1,098 from Barbeques Galore"/></a></div>    <div class="comp-actions"><a href="#" class="comp-seen btn icon" title="Mark as seen" onclick="return OzB.competition.markAsSeen(this, 919459, 0, 1, 0);"><i class="fa fa-eye-slash" title="Mark as seen"></i></a><a href="#" class="comp-enter btn icon" title="Mark as Entered" onclick="return OzB.competition.recordEntry(this, 919459, 0, 1, 0, 0);"><i class="fa fa-check-square-o" title="Mark as Entered"></i></a></div>    </div>
@@ -488,11 +420,26 @@ OzB.dismissNewsletter(1);
             <li><span title="Entry methods"><i class="fa fa-edit fa-fw"></i>Website</span></li>
             <li><span title="Entry requirements"><i class="fa fa-check-square-o fa-fw"></i>Email Subscription</span></li>
     </ul>
-    <div class="links"><ul class="links"><li><i class="fa fa-comment"></i> 0</li><li><i class="fa fa-edit" title="Number of entries"></i> 60</li><li><i class="fa fa-trophy" title="Number of winners"></i> 0</li><li><span class="tag"><i class="fa fa-tag"></i> <a href="/competition/draw">Lucky Draw</a></span></li><li><span class="nodeexpiry"><i class="fa fa-calendar"></i> 27 Aug <span class="marker">13 days left</span> </span></li></ul></div>  </div>
+    <div class="links"><ul class="links"><li><i class="fa fa-comment"></i> 1</li><li><i class="fa fa-edit" title="Number of entries"></i> 97</li><li><i class="fa fa-trophy" title="Number of winners"></i> 0</li><li><span class="tag"><i class="fa fa-tag"></i> <a href="/competition/draw">Lucky Draw</a></span></li><li><span class="nodeexpiry"><i class="fa fa-calendar"></i> 27 Aug <span class="marker">12 days left</span> </span></li></ul></div>  </div>
+</div>
+<div class="node node-competition node-teaser" id="node919670">
+    <div class="n-left">
+    <img src="https://files.ozbargain.com.au/g/38.jpg" alt="" width="38" height="38" class="gravatar"/>    <div class="n-vote n-comp inact" data-nid="919670"><span class="nvb voteup"><i class="fa fa-plus"></i><span>16</span></span></div>  </div>
+  <div class="n-right">
+        <div class="right">
+    <div class="foxshot-container"><a href="/goto/919670" rel="noopener nofollow" title="Go to https://www.kokoblack.com/pages/win" target="_blank"><img src="https://files.ozbargain.com.au/n/70/919670.jpg?h=ee0ad7bf" alt="Win a Black Weber Q Premium (Q2200N) Gas Barbecue (LPG) Valued at $549 from Koko Black"/></a></div>    <div class="comp-actions"><a href="#" class="comp-seen btn icon" title="Mark as seen" onclick="return OzB.competition.markAsSeen(this, 919670, 0, 1, 0);"><i class="fa fa-eye-slash" title="Mark as seen"></i></a><a href="#" class="comp-enter btn icon" title="Mark as Entered" onclick="return OzB.competition.recordEntry(this, 919670, 0, 1, 0, 0);"><i class="fa fa-check-square-o" title="Mark as Entered"></i></a></div>    </div>
+        <h2 class="title" id="title919670" data-title="Win a Black Weber Q Premium (Q2200N) Gas Barbecue (LPG) Valued at $549 from Koko Black"><a href="/node/919670">Win a Black Weber Q Premium (Q2200N) Gas Barbecue (LPG) Valued at <em class="dollar">$549</em> from Koko Black</a></h2>    <div class="submitted"><strong><a href="/user/75943" title="View user profile." onclick="return OzB.user_tooltip(this)">shaneb</a></strong> on 14/08/2025 - 20:33 <span class="via"><i class="fa fa-link"></i> <a href="/goto/919670" rel="noopener nofollow noreferrer" target="_blank">kokoblack.com</a></span></div>
+<ul class="competition-list-meta">
+        <li><span title="Total prize pool"><i class="fa fa-fw fa-trophy"></i>Prize pool $549.00</span></li>
+            <li><span title="Open to"><i class="fa fa-map-marker fa-fw"></i>Australia-wide</span></li>
+            <li><span title="Entry methods"><i class="fa fa-edit fa-fw"></i>Website</span></li>
+            <li><span title="Entry requirements"><i class="fa fa-check-square-o fa-fw"></i>Email Subscription</span></li>
+    </ul>
+    <div class="links"><ul class="links"><li><i class="fa fa-comment"></i> 1</li><li><i class="fa fa-edit" title="Number of entries"></i> 77</li><li><i class="fa fa-trophy" title="Number of winners"></i> 0</li><li><span class="tag"><i class="fa fa-tag"></i> <a href="/competition/draw">Lucky Draw</a></span></li><li><span class="nodeexpiry"><i class="fa fa-calendar"></i> 7 Sep <span class="marker">23 days left</span> </span></li></ul></div>  </div>
 </div>
 <div class="node node-competition node-teaser" id="node919395">
     <div class="n-left">
-    <img src="https://files.ozbargain.com.au/g/38.jpg" alt="" width="38" height="38" class="gravatar"/>    <div class="n-vote n-comp inact" data-nid="919395"><span class="nvb voteup"><i class="fa fa-plus"></i><span>9</span></span></div>  </div>
+    <img src="https://files.ozbargain.com.au/g/38.jpg" alt="" width="38" height="38" class="gravatar"/>    <div class="n-vote n-comp inact" data-nid="919395"><span class="nvb voteup"><i class="fa fa-plus"></i><span>13</span></span></div>  </div>
   <div class="n-right">
         <div class="right">
     <div class="foxshot-container"><a href="/goto/919395" rel="noopener nofollow" title="Go to https://www.foxsports.com.au/lg" target="_blank"><img src="https://files.ozbargain.com.au/n/95/919395.jpg?h=56ada87f" alt="Win an 86 Inch LG QNED evo AI Mini LED QNED86A 4K Smart TV + LG Q Series Sound Bar S70TY from Fox Sports + LG"/></a></div>    <div class="comp-actions"><a href="#" class="comp-seen btn icon" title="Mark as seen" onclick="return OzB.competition.markAsSeen(this, 919395, 0, 1, 0);"><i class="fa fa-eye-slash" title="Mark as seen"></i></a><a href="#" class="comp-enter btn icon" title="Mark as Entered" onclick="return OzB.competition.recordEntry(this, 919395, 0, 1, 0, 0);"><i class="fa fa-check-square-o" title="Mark as Entered"></i></a></div>    </div>
@@ -503,17 +450,25 @@ OzB.dismissNewsletter(1);
             <li><span title="Entry methods"><i class="fa fa-edit fa-fw"></i>Website</span></li>
             <li><span title="Entry requirements"><i class="fa fa-check-square-o fa-fw"></i>Email Subscription, Like/Follow/Comment/Share</span></li>
     </ul>
-    <div class="links"><ul class="links"><li><i class="fa fa-comment"></i> 5</li><li><i class="fa fa-edit" title="Number of entries"></i> 48</li><li><i class="fa fa-trophy" title="Number of winners"></i> 0</li><li><span class="tag"><i class="fa fa-tag"></i> <a href="/competition/words">No. of Words or Less</a></span></li><li><span class="nodeexpiry"><i class="fa fa-calendar"></i> 25 Aug 10:00am <span class="marker">11 days left</span> </span></li></ul></div>  </div>
+    <div class="links"><ul class="links"><li><i class="fa fa-comment"></i> 5</li><li><i class="fa fa-edit" title="Number of entries"></i> 74</li><li><i class="fa fa-trophy" title="Number of winners"></i> 0</li><li><span class="tag"><i class="fa fa-tag"></i> <a href="/competition/words">No. of Words or Less</a></span></li><li><span class="nodeexpiry"><i class="fa fa-calendar"></i> 25 Aug 10:00am <span class="marker">10 days left</span> </span></li></ul></div>  </div>
+</div>
+<div class="node node-competition node-teaser" id="node919433">
+    <div class="n-left">
+    <img src="https://files.ozbargain.com.au/g/38.jpg" alt="" width="38" height="38" class="gravatar"/>    <div class="n-vote n-comp inact" data-nid="919433"><span class="nvb voteup"><i class="fa fa-plus"></i><span>12</span></span></div>  </div>
+  <div class="n-right">
+        <div class="right">
+    <div class="foxshot-container"><a href="/goto/919433" rel="noopener nofollow" title="Go to https://musclerepublic.com/pages/euro-summer-2026" target="_blank"><img src="https://files.ozbargain.com.au/n/33/919433.jpg?h=26f7d318" alt="Win a 14-Day Trip for 2 to Europe Inc. Airfare/Acc. + $4,000 Cash + Luggage + Summer MSCR Sets (Total $20k) from Muscle Republic"/></a></div>    <div class="comp-actions"><a href="#" class="comp-seen btn icon" title="Mark as seen" onclick="return OzB.competition.markAsSeen(this, 919433, 0, 1, 0);"><i class="fa fa-eye-slash" title="Mark as seen"></i></a><a href="#" class="comp-enter btn icon" title="Mark as Entered" onclick="return OzB.competition.recordEntry(this, 919433, 0, 1, 0, 0);"><i class="fa fa-check-square-o" title="Mark as Entered"></i></a></div>    </div>
+        <h2 class="title" id="title919433" data-title="Win a 14-Day Trip for 2 to Europe Inc. Airfare/Acc. + $4,000 Cash + Luggage + Summer MSCR Sets (Total $20k) from Muscle Republic"><a href="/node/919433">Win a 14-Day Trip for 2 to Europe Inc. Airfare/Acc. + <em class="dollar">$4,000</em> Cash + Luggage + Summer MSCR Sets (Total <em class="dollar">$20</em>k) from Muscle Republic</a></h2>    <div class="submitted"><strong><a href="/user/75943" title="View user profile." onclick="return OzB.user_tooltip(this)">shaneb</a></strong> on 13/08/2025 - 17:41 <span class="via"><i class="fa fa-link"></i> <a href="/goto/919433" rel="noopener nofollow noreferrer" target="_blank">musclerepublic.com</a></span></div>
+<ul class="competition-list-meta">
+        <li><span title="Total prize pool"><i class="fa fa-fw fa-trophy"></i>Prize pool $20,000.00</span></li>
+            <li><span title="Open to"><i class="fa fa-map-marker fa-fw"></i>Australia-wide</span></li>
+            <li><span title="Entry methods"><i class="fa fa-edit fa-fw"></i>Instagram, Website</span></li>
+            <li><span title="Entry requirements"><i class="fa fa-check-square-o fa-fw"></i>Email Subscription, Like/Follow/Comment/Share</span></li>
+    </ul>
+    <div class="links"><ul class="links"><li><i class="fa fa-comment"></i> 0</li><li><i class="fa fa-edit" title="Number of entries"></i> 63</li><li><i class="fa fa-trophy" title="Number of winners"></i> 0</li><li><span class="tag"><i class="fa fa-tag"></i> <a href="/competition/draw">Lucky Draw</a></span></li><li><span class="nodeexpiry"><i class="fa fa-calendar"></i> 18 Aug <span class="marker">3 days left</span> </span></li></ul></div>  </div>
 </div>
 </div>
 <h2 class="section" id="fpforums">Highlighted Discussion Topics <button class="btn" onclick="OzB.toggleFPForums(this);">Hide</button></h2><div>
-<div class="node node-forum node-teaser">
-    <div class="n-left"><img src="https://files.ozbargain.com.au/g/38.jpg" alt="" width="38" height="38" class="gravatar"/></div>
-  <div class="n-right">
-        <h2 class="title" id="title919289" data-title="Retailer Threatens Legal Action for Using 90% off Coupon"><a href="/node/919289">Retailer Threatens Legal Action for Using 90% off Coupon</a></h2>    <div class="submitted"><strong><a href="/user/161659" title="View user profile." onclick="return OzB.user_tooltip(this)">fortunecookie</a></strong> on 12/08/2025 - 20:41</div>
-    <div class="content"><p>I recently found a 90% off coupon code that worked on a retailer&#039;s website. I placed an order with the code to test it out. It went through and the item got delivered. A few weeks later, the …</p></div>
-    <div class="links"><ul class="links"><li><i class="fa fa-comment"></i> 150</li><li><span class="tag"><i class="fa fa-tag"></i> <a href="/forum/7">General Discussion</a></span></li></ul></div>  </div>
-</div>
 <div class="node node-forum node-teaser">
     <div class="n-left"><img src="https://files.ozbargain.com.au/u/12/412312-38.jpg?h=00db64ce" alt="" width="38" height="38" class="gravatar"/></div>
   <div class="n-right">
@@ -521,28 +476,37 @@ OzB.dismissNewsletter(1);
       <div class="foxshot-container"><a href="/deals/netflix.com" rel="noopener nofollow" title="Netflix deals, coupons &amp; competitions"><img src="https://files.ozbargain.com.au/d/80/24880.jpg?h=40ce87b7" alt="Netflix"/></a></div>    </div>
         <h2 class="title" id="title919419" data-title="Netflix Prices Rise Again. Corporate Greed Strikes Again"><span class="tagger poll">poll</span> <a href="/node/919419">Netflix Prices Rise Again. Corporate Greed Strikes Again</a></h2>    <div class="submitted"><strong><a href="/user/412312" title="View user profile." onclick="return OzB.user_tooltip(this)">shxhshzhz</a></strong> on 13/08/2025 - 15:51 on <span class="via"><i class="fa fa-link"></i> Netflix</span></div>
     <div class="content"><p>After last year&#039;s price increase, Netflix has increased prices for all plans again. PSA for those who may not be aware of this. Price hikes are highest for the 4K plan, now costing an extra $3 a …</p></div>
-    <div class="links"><ul class="links"><li><i class="fa fa-comment"></i> 115</li><li><span class="tag"><i class="fa fa-tag"></i> <a href="/forum/546">Entertainment</a></span></li></ul></div>  </div>
+    <div class="links"><ul class="links"><li><i class="fa fa-comment"></i> 149</li><li><span class="tag"><i class="fa fa-tag"></i> <a href="/forum/546">Entertainment</a></span></li></ul></div>  </div>
+</div>
+<div class="node node-forum node-teaser">
+    <div class="n-left"><img src="https://files.ozbargain.com.au/g/38.jpg" alt="" width="38" height="38" class="gravatar"/></div>
+  <div class="n-right">
+        <h2 class="title" id="title919289" data-title="Retailer Threatens Legal Action for Using 90% off Coupon"><a href="/node/919289">Retailer Threatens Legal Action for Using 90% off Coupon</a></h2>    <div class="submitted"><strong><a href="/user/161659" title="View user profile." onclick="return OzB.user_tooltip(this)">fortunecookie</a></strong> on 12/08/2025 - 20:41</div>
+    <div class="content"><p>I recently found a 90% off coupon code that worked on a retailer&#039;s website. I placed an order with the code to test it out. It went through and the item got delivered. A few weeks later, the …</p></div>
+    <div class="links"><ul class="links"><li><i class="fa fa-comment"></i> 216</li><li><span class="tag"><i class="fa fa-tag"></i> <a href="/forum/7">General Discussion</a></span></li></ul></div>  </div>
+</div>
+<div class="node node-forum node-teaser">
+    <div class="n-left"><img src="https://files.ozbargain.com.au/g/38.jpg" alt="" width="38" height="38" class="gravatar"/></div>
+  <div class="n-right">
+        <div class="right">
+      <div class="foxshot-container"><a href="/deals/uber.com" rel="noopener nofollow" title="Uber deals, coupons &amp; competitions"><img src="https://files.ozbargain.com.au/d/18/18118.jpg?h=00ffe289" alt="Uber"/></a></div>    </div>
+        <h2 class="title" id="title919461" data-title="Uber Courier Stole Item"><a href="/node/919461">Uber Courier Stole Item</a></h2>    <div class="submitted"><strong><a href="/user/131283" title="View user profile." onclick="return OzB.user_tooltip(this)">Madfrega</a></strong> on 13/08/2025 - 20:17 on <span class="via"><i class="fa fa-link"></i> Uber</span></div>
+    <div class="content"><p>Hi all, Seeking any advice or any insight on how to get absolutely anywhere through contacting Uber (or just in general with this scenario) A friend of mine got some items for me (2 pairs of shoes …</p></div>
+    <div class="links"><ul class="links"><li><i class="fa fa-comment"></i> 47</li><li><span class="tag"><i class="fa fa-tag"></i> <a href="/forum/7">General Discussion</a></span></li></ul></div>  </div>
 </div>
 <div class="node node-forum node-teaser">
     <div class="n-left"><img src="https://files.ozbargain.com.au/g/38.jpg" alt="" width="38" height="38" class="gravatar"/></div>
   <div class="n-right">
         <h2 class="title" id="title919118" data-title="If You&#039;re Replacing a Pan Set, What Would You Go with?"><a href="/node/919118">If You&#039;re Replacing a Pan Set, What Would You Go with?</a></h2>    <div class="submitted"><strong><a href="/user/12582" title="View user profile." onclick="return OzB.user_tooltip(this)">jollster101</a></strong> on 11/08/2025 - 16:15</div>
     <div class="content"><p>Hey all We are about to start on some house renovations, of which one area will be the kitchen. With this we are thinking we will replace our current pan set with something new. A mate who was a …</p></div>
-    <div class="links"><ul class="links"><li><i class="fa fa-comment"></i> 123</li><li><span class="tag"><i class="fa fa-tag"></i> <a href="/forum/42">Home &amp; Garden</a></span></li></ul></div>  </div>
-</div>
-<div class="node node-forum node-teaser">
-    <div class="n-left"><img src="https://files.ozbargain.com.au/g/38.jpg" alt="" width="38" height="38" class="gravatar"/></div>
-  <div class="n-right">
-        <h2 class="title" id="title919208" data-title="Paying Deposit at Auction before Borrowing against Current Property"><a href="/node/919208">Paying Deposit at Auction before Borrowing against Current Property</a></h2>    <div class="submitted"><strong><a href="/user/402264" title="View user profile." onclick="return OzB.user_tooltip(this)">amorphous2111</a></strong> on 12/08/2025 - 12:10</div>
-    <div class="content"><p>Hi everyone, We are looking to buy an investment property. 80% will be borrowed against the to-be-purchased IP and 25% will be borrowed against our current house for the deposit and buying cost. We …</p></div>
-    <div class="links"><ul class="links"><li><i class="fa fa-comment"></i> 60</li><li><span class="tag"><i class="fa fa-tag"></i> <a href="/forum/38183">Financial</a></span></li></ul></div>  </div>
+    <div class="links"><ul class="links"><li><i class="fa fa-comment"></i> 144</li><li><span class="tag"><i class="fa fa-tag"></i> <a href="/forum/42">Home &amp; Garden</a></span></li></ul></div>  </div>
 </div>
 <div class="node node-forum node-teaser">
     <div class="n-left"><img src="https://files.ozbargain.com.au/g/38.jpg" alt="" width="38" height="38" class="gravatar"/></div>
   <div class="n-right">
         <h2 class="title" id="title919380" data-title="Cheapest &amp; Easiest Way to Call a Government Department in Canada"><a href="/node/919380">Cheapest &amp; Easiest Way to Call a Government Department in Canada</a></h2>    <div class="submitted"><strong><a href="/user/40191" title="View user profile." onclick="return OzB.user_tooltip(this)">altomic</a></strong> on 13/08/2025 - 12:32</div>
     <div class="content"><p>Hi, I need to follow up on my CPP. They have a landline number. What’s the cheapest and easiest way to call them ? My mobile is with belong. Thanks </p></div>
-    <div class="links"><ul class="links"><li><i class="fa fa-comment"></i> 35</li><li><span class="tag"><i class="fa fa-tag"></i> <a href="/forum/38183">Financial</a></span></li></ul></div>  </div>
+    <div class="links"><ul class="links"><li><i class="fa fa-comment"></i> 42</li><li><span class="tag"><i class="fa fa-tag"></i> <a href="/forum/38183">Financial</a></span></li></ul></div>  </div>
 </div>
 </div>
     </div>
@@ -582,9 +546,9 @@ OzB.dismissNewsletter(1);
       <section>
         <h3>Statistics</h3>
         <ul class="links">
-<li><i class="fa fa-users fa-fw"></i> Online <b>2,106</b> users <b>6,207</b> guests</li>
-<li><i class="fa fa-shopping-cart fa-fw"></i> <b>515,280</b> deals <b>69,341</b> comps</li>
-<li><i class="fa fa-comments fa-fw"></i> <b>16,806,351</b> comments</li>
+<li><i class="fa fa-users fa-fw"></i> Online <b>2,008</b> users <b>6,335</b> guests</li>
+<li><i class="fa fa-shopping-cart fa-fw"></i> <b>515,385</b> deals <b>69,356</b> comps</li>
+<li><i class="fa fa-comments fa-fw"></i> <b>16,809,702</b> comments</li>
 </ul>
       </section>
       <section>
@@ -624,4 +588,4 @@ OzB.dismissNewsletter(1);
 <script>OzB.onload(function(){OzB.ads.done({"adsense":[],"slots":[{"name":"OzBargain_Home_TopLeader","sizes":[[728,90]],"id":"ozbads-0"},{"name":"OzBargain_Home_BottomLeader","sizes":[[728,90]],"id":"ozbads-1","lazy":1},{"name":"OzBargain_Home_Billboard","sizes":[[970,250]],"id":"ozbads-2"},{"name":"OzBargain_Home_Mrec2_Right","sizes":[[300,600],[300,250]],"id":"ozbads-3","sticky":1},{"name":"OzBargain_Desktop_Sticky","sizes":[[728,90]],"id":"ozbads-4"}],"targeting":[["site","OzBargain"]]});});</script>
 </body>
 </html>
-<!-- Timer: 0.123 sec -->
+<!-- Timer: 0.133 sec -->
